@@ -1,0 +1,55 @@
+{% extends "global/Page.html" %}
+{% load otree staticfiles %}
+
+
+{% block title %}
+        Contribute or Refuse?
+{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'global/matrix.css' %}" />
+
+    <style>
+        .highlight-row-on-hover:hover td {
+            background-color: #fcf8e3;
+        }
+        th {
+            text-align: center;
+        }
+    </style>
+
+{% endblock %}
+
+{% block content %}
+    <p>
+        Now, knowing that you offered {{ group.offer }}, please, choose whether you want to cooperate or to contribute.
+    </p>
+    <p>
+        (Remember that, in each cell, the amount to the left is the payoff for
+        the authority, you, and to the right for the subordinate.)
+    </p>
+
+    <div class="form-group required">
+        <table class="table table-bordered text-center" style="width: auto; margin: auto">
+            <tr>
+                <th colspan="2" rowspan="2"></th>
+                <th colspan="2">The Subordinate</th>
+            </tr>
+            <tr>
+                <th>Contribute</th>
+                <th>Refuse</th>
+            </tr>
+            <tr class="highlight-row-on-hover">
+                <th rowspan="2" style="vertical-align: middle">The Authority</th>
+                <td><button name="decision" value="Contribute" class="btn btn-primary btn-large">I will contribute</button></td>
+                <td>{{ group.authority_cc }}, {{ group.subordinate_cc }}</td>
+                <td>{{ Constants.authority_cr }}, {{ Constants.exploit_payoff }}</td>
+            </tr>
+            <tr class="highlight-row-on-hover">
+                <td><button name="decision" value="Refuse" class="btn btn-primary btn-large">I will refuse</button></td>
+                <td>{{ group.authority_rc }}, {{ group.subordinate_rc }}</td>
+                <td>{{ Constants.authority_rr }}, {{ Constants.subordinate_rr }}</td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}

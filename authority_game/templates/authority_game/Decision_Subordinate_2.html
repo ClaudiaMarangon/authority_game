@@ -1,0 +1,66 @@
+{% extends "global/Page.html" %}
+{% load otree staticfiles %}
+
+
+{% block title %}
+        Contribute or Refuse - Offer = 2?
+{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'global/matrix.css' %}" />
+
+    <style>
+        .highlight-row-on-hover:hover td {
+            background-color: #fcf8e3;
+        }
+        th {
+            text-align: center;
+        }
+
+    </style>
+
+{% endblock %}
+
+{% block content %}
+        <p>
+        This is a 2 player Prisoner Dilemma game, where you are {{ player.role }}. In this game the decision of offering
+        will be made in period 1, while both players will choose simultaneously in period 2 whether to contribute or not.
+    </p>
+    <p>
+        You have to choose whether to contribute or to refuse to do it, given that the authority offered you a reward
+        from contribution of 0, 2 or 4.
+    </p>
+    <p>
+        In each cell, the amount to the left is the payoff for
+        the authority and to the right for the subordinate (you).
+    </p>
+    <p>
+        Assume that the authority offered you a reward of 2, then the payoffs would be those reported in the following
+        table. Please choose between contributing and refusing.
+    </p>
+
+    <div class="form-group required">
+        <table class="table table-bordered text-center" style="width: auto; margin: auto">
+            <tr>
+                <th colspan="2" rowspan="2"></th>
+                <th colspan="2">The Authority</th>
+            </tr>
+            <tr>
+                <th>Contribute</th>
+                <th>Refuse</th>
+            </tr>
+            <tr class="highlight-row-on-hover">
+                <th rowspan="2" style="vertical-align: middle">The Subordinate</th>
+                <td><button name="decision" value="Contribute" class="btn btn-primary btn-large">I will contribute</button></td>
+                <td>9 points, 3 points</td>
+                <td>9 points, 8 points</td>
+            </tr>
+            <tr class="highlight-row-on-hover">
+                <td><button name="decision" value="Refuse" class="btn btn-primary btn-large">I will refuse</button></td>
+                <td>{{ Constants.exploit_payoff }}, {{ Constants.authority_cr }}</td>
+                <td>{{ Constants.subordinate_rr }}, {{ Constants.authority_rr }}</td>
+            </tr>
+        </table>
+    </div>
+
+{% endblock %}

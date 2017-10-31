@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Binding Offer
+{% endblock %}
+
+{% block content %}
+
+    {% include 'authority_game/Instructions.html' %}
+
+    <p>
+        Please, choose the amount of reward from contributing to offer to the subordinate:
+    </p>
+
+    {% formfield group.offer label="I choose:" %}
+
+    {% next_button %}
+
+{% endblock %}
