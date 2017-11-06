@@ -1,0 +1,16 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block content %}
+    {% if player1 %}
+        As previously chosen, your payoff is {{ player.payoff }}.
+    {% else %}
+        Your payoff is {{ player.payoff }}
+    {% endif %}
+    {% next_button %}
+{% endblock %}
+
