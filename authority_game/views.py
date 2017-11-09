@@ -6,6 +6,8 @@ from .models import Constants
 import random
 
 class Introduction(Page):
+    form_model = models.Player
+    form_fields = ['question1', 'question2', 'question3', 'question4']
     pass
 
 class Offer(Page):

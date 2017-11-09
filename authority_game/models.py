@@ -84,6 +84,21 @@ class Group(BaseGroup):
 
 class Player(BasePlayer):
 
+    question1 = models.PositiveIntegerField(
+        verbose_name="Please, enter your answer below"
+    )
+    question2 = models.PositiveIntegerField(
+        verbose_name="Please, enter your answer below"
+    )
+    question3 = models.BooleanField(
+        widget=widgets.RadioSelect,
+        choices=['True', 'False'],
+        verbose_name="True or False?"
+    )
+    question4 = models.PositiveIntegerField(
+        verbose_name="Please, enter your answer below"
+    )
+
     decision = models.CharField(
         choices=['Contribute', 'Refuse'],
         widget=widgets.RadioSelect

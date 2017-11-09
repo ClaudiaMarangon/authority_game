@@ -1,4 +1,4 @@
-% extends "global/Page.html" %}
+{% extends "global/Page.html" %}
 {% load staticfiles otree_tags %}
 
 {% block title %}
@@ -119,7 +119,28 @@
 
     <p>
         Please answer the following comprehension questions before continuing to the game.
+        <ol>
+            <li>Please answer the following comprehension questions before continuing to the game. <br />
+                {% formfield player.question1 %}
+            </li>
+            <li>
+                If the bonus payment is 2, the Subordinate performs the task and the Authority does not perform the task,
+                how much will the Subordinate earn? <br/>
+                {% formfield player.question2 %}
+            </li>
+            <li>If both players perform the task, the Subordinate always earns more money than the
+                Authority, no matter what the bonus is.
+                {% formfield player.question3 %}
+            </li>
+            <li>
+                If the bonus payment is 4, the Subordinate performs the task and the Authority does not perform the task,
+                how much will the Authority earn? <br />
+                {% formfield player.question4 %}
+            </li>
+        </ol>
     </p>
+
+
     {% next_button %}
 
 {% endblock %}
