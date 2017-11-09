@@ -90,9 +90,9 @@ class Player(BasePlayer):
     )
 
     def role(self):
-        if self.in_round(self,1).id_in_group == 1:
+        if self.id_in_group == 1:
             return 'Authority'
-        if self.in_round(self,1).id_in_group == 2:
+        if self.id_in_group == 2:
             return 'Subordinate'
 
     def other_player(self):
