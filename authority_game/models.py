@@ -2,6 +2,7 @@ from otree.api import (
     models, widgets, BaseConstants, BaseSubsession, BaseGroup, BasePlayer,
     Currency as c, currency_range
 )
+import random
 
 
 author = 'Your name here'
@@ -89,9 +90,9 @@ class Player(BasePlayer):
     )
 
     def role(self):
-        if self.id_in_group == 1:
+        if self.in_round(self,1).id_in_group == 1:
             return 'Authority'
-        if self.id_in_group == 2:
+        if self.in_round(self,1).id_in_group == 2:
             return 'Subordinate'
 
     def other_player(self):

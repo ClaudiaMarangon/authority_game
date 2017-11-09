@@ -2,7 +2,7 @@ from otree.api import (
     models, widgets, BaseConstants, BaseSubsession, BaseGroup, BasePlayer,
     Currency as c, currency_range
 )
-
+import math
 
 author = 'Your name here'
 
@@ -15,7 +15,7 @@ class Constants(BaseConstants):
     name_in_url = 'circle_task'
     players_per_group = 2
     num_rounds = 1
-    endowment = float(10)
+    endowmentsqr = float(100)
 
 
 class Subsession(BaseSubsession):
@@ -28,7 +28,7 @@ class Group(BaseGroup):
         p1 = self.get_player_by_id(1)
         p2 = self.get_player_by_id(2)
         p1.payoff = float(self.choicep1)
-        p2.payoff = Constants.endowment - float(self.choicep1)
+        p2.payoff = math.sqrt(Constants.endowmentsqr - float(self.choicep1)**2)
     pass
 
 
