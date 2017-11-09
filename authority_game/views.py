@@ -5,6 +5,8 @@ from .models import Constants
 
 import random
 
+class Introduction(Page):
+    pass
 
 class Offer(Page):
 
@@ -69,6 +71,7 @@ class Results(Page):
 
 
 page_sequence = [
+    Introduction,
     Offer,
     Decision_Authority,
     Decision_Subordinate,

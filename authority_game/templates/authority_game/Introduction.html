@@ -1,0 +1,125 @@
+% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Welcome!
+{% endblock %}
+
+{% block content %}
+
+    <p>
+        You will play a simple game called the Task Game, which is a game for two players: an <b>Authority</b> and a
+        <b>Subordinate</b>. As the name suggests, in this game, there is a task to be performed. There is a payment
+        reward for both you and your partner if the task is performed, and either or both of you can perform it.
+        Each player decides independently whether to perform the task or not. However:
+        <ul>
+            <li>If <b>neither of you</b> perform the task, there is no reward</li>
+            <li>Performing the task requires effort, so whoever performs it will have to pay a cost.</li>
+        </ul>
+        Specifically:
+        <ul>
+            <li>If the Authority performs the task alone and the Subordinate does not perform the task, the <b>Authority
+                receives 5</b> and the <b>Subordinate receives 10</b> </li>
+            <li>If the Authority does not perform the task and the Subordinate performs the task alone, the <b>Authority
+                receives 10</b> and the <b>Subordinate receives 7</b> </li>
+            <li>If both players perform the task, the <b>Authority receives 5</b> and the <b>Subordinate receives 7</b> </li>
+            <li>If both players do not perform the task, the <b>Authority receives 3</b> and the <b>Subordinate receives
+                5</b>.</li>
+        </ul>
+        These payoffs are displayed in the table below, in which the amount to the left in each box is the payoff for
+        the Authority and the payoff to the right is for the Subordinate.
+    </p>
+
+    <table class='table table-bordered text-center'
+           style='width: auto; margin: auto'>
+        <tr>
+            <th colspan=2 rowspan=2></th>
+            <th colspan=2>The Subordinate</th>
+        </tr>
+        <tr>
+            <th>Perform</th>
+            <th>Do not <br /> perform</th>
+        </tr>
+        <tr>
+            <th rowspan=2 style="vertical-align: middle">The Authority</th>
+            <th>Perform</th>
+            <td>5, 7</td>
+            <td>5, 10</td>
+        </tr>
+        <tr>
+            <th>Do not <br /> perform</th>
+            <td>10, 7</td>
+            <td>3, 5</td>
+        </tr>
+    </table>
+
+    <p>
+        Each player will choose independently whether they want to perform the task or not, and then the computer will
+        match the answers and calculate the appropriate payoffs.
+    </p>
+
+    <p>
+        However, before the choice, the Authority can make one more decision. The Authority can promise a <b>bonus payment</b>,
+        to be paid by the Authority to the Subordinate <b>ONLY IF</b> the Subordinate chooses to perform the task.
+        The Authority can offer bonus payments of 2 or 4, or of nothing at all (0).
+    </p>
+
+    <p>
+        If the Authority promises a bonus payment of 2, that means the payoffs for the game will look like this:
+    </p>
+
+    <table class='table table-bordered text-center'
+           style='width: auto; margin: auto'>
+        <tr>
+            <th colspan=2 rowspan=2></th>
+            <th colspan=2>The Subordinate</th>
+        </tr>
+        <tr>
+            <th>Perform</th>
+            <th>Do not <br /> perform</th>
+        </tr>
+        <tr>
+            <th rowspan=2 style="vertical-align: middle">The Authority</th>
+            <th>Perform</th>
+            <td>3, 9</td>
+            <td>5, 10</td>
+        </tr>
+        <tr>
+            <th>Do not <br /> perform</th>
+            <td>8, 9</td>
+            <td>3, 5</td>
+        </tr>
+    </table>
+    <p>
+        And if the Authority promises a bonus payment of 4, the payoffs for the game will look like this:
+    </p>
+
+        <table class='table table-bordered text-center'
+           style='width: auto; margin: auto'>
+        <tr>
+            <th colspan=2 rowspan=2></th>
+            <th colspan=2>The Subordinate</th>
+        </tr>
+        <tr>
+            <th>Perform</th>
+            <th>Do not <br /> perform</th>
+        </tr>
+        <tr>
+            <th rowspan=2 style="vertical-align: middle">The Authority</th>
+            <th>Perform</th>
+            <td>1, 11</td>
+            <td>5, 10</td>
+        </tr>
+        <tr>
+            <th>Do not <br /> perform</th>
+            <td>6, 11</td>
+            <td>3, 5</td>
+        </tr>
+    </table>
+
+    <p>
+        Please answer the following comprehension questions before continuing to the game.
+    </p>
+    {% next_button %}
+
+{% endblock %}
