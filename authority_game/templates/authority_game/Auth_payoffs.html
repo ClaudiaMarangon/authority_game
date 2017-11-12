@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Collapse content</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
+</head>
+<body>
+
+<div id="accordion">
+  <h3> Offer = 0</h3>
+  <div>
+<table class='table table-bordered text-center'
+           style='width: auto; margin: auto'>
+        <tr>
+            <th colspan=2 rowspan=2></th>
+            <th colspan=2>The Subordinate</th>
+        </tr>
+        <tr>
+            <th>Perform</th>
+            <th>Do not <br /> perform</th>
+        </tr>
+        <tr>
+            <th rowspan=2 style="vertical-align: middle">The Authority</th>
+            <th>Perform</th>
+            <td>5, 7</td>
+            <td>5, 10</td>
+        </tr>
+        <tr>
+            <th>Do not <br /> perform</th>
+            <td>10, 7</td>
+            <td>3, 5</td>
+        </tr>
+    </table>  </div>
+  <h3>Offer = 2</h3>
+  <div>
+<table class='table table-bordered text-center'
+           style='width: auto; margin: auto'>
+        <tr>
+            <th colspan=2 rowspan=2></th>
+            <th colspan=2>The Subordinate</th>
+        </tr>
+        <tr>
+            <th>Perform</th>
+            <th>Do not <br /> perform</th>
+        </tr>
+        <tr>
+            <th rowspan=2 style="vertical-align: middle">The Authority</th>
+            <th>Perform</th>
+            <td>3, 9</td>
+            <td>5, 10</td>
+        </tr>
+        <tr>
+            <th>Do not <br /> perform</th>
+            <td>8, 9</td>
+            <td>3, 5</td>
+        </tr>
+    </table>  </div>
+  <h3>Offer = 4</h3>
+  <div>
+    <table class='table table-bordered text-center'
+           style='width: auto; margin: auto'>
+        <tr>
+            <th colspan=2 rowspan=2></th>
+            <th colspan=2>The Subordinate</th>
+        </tr>
+        <tr>
+            <th>Perform</th>
+            <th>Do not <br /> perform</th>
+        </tr>
+        <tr>
+            <th rowspan=2 style="vertical-align: middle">The Authority</th>
+            <th>Perform</th>
+            <td>1, 11</td>
+            <td>5, 10</td>
+        </tr>
+        <tr>
+            <th>Do not <br /> perform</th>
+            <td>6, 11</td>
+            <td>3, 5</td>
+        </tr>
+    </table>
+  </div>
+</div>
+
+
+</body>
+</html>

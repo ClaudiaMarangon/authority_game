@@ -28,7 +28,6 @@ class Description(Page):
     #here should create session
     pass
 
-
 class Offer(Page):
 
     def is_displayed(self):
