@@ -54,6 +54,20 @@ class Decision_Subordinate(Page):
     form_fields = ['decision']
     pass
 
+class ResultsWaitPage(WaitPage):
+
+    def is_displayed(self):
+        if self.group.offer == 0:
+            return {self.player.role() == 'Authority',
+                    self.player.role() == 'Subordinate'}
+        else:
+            return self.player.role() == 'Subordinate'
+
+
+    def after_all_players_arrive(self):
+        if self.group.offer == 0:
+            self.group.set_payoff()
+        pass
 
 class Decision_Subordinate_2(Page):
 
@@ -63,6 +77,19 @@ class Decision_Subordinate_2(Page):
     form_fields = ['decision']
     pass
 
+class ResultsWaitPage2(WaitPage):
+
+    def is_displayed(self):
+        if self.group.offer == 2:
+            return {self.player.role() == 'Authority',
+                    self.player.role() == 'Subordinate'}
+        else:
+            return self.player.role() == 'Subordinate'
+
+    def after_all_players_arrive(self):
+        if self.group.offer == 2:
+            self.group.set_payoff()
+        pass
 
 class Decision_Subordinate_4(Page):
 
@@ -73,10 +100,18 @@ class Decision_Subordinate_4(Page):
     pass
 
 
-class ResultsWaitPage(WaitPage):
+class ResultsWaitPage4(WaitPage):
+
+    def is_displayed(self):
+        if self.group.offer == 4:
+            return {self.player.role() == 'Authority',
+                    self.player.role() == 'Subordinate'}
+        else:
+            return self.player.role() == 'Subordinate'
 
     def after_all_players_arrive(self):
-        self.group.set_payoff()
+        if self.group.offer == 4:
+            self.group.set_payoff()
         pass
 
 class Results(Page):
@@ -96,8 +131,10 @@ page_sequence = [
     Offer,
     Decision_Authority,
     Decision_Subordinate,
-    Decision_Subordinate_2,
-    Decision_Subordinate_4,
     ResultsWaitPage,
+    Decision_Subordinate_2,
+    ResultsWaitPage2,
+    Decision_Subordinate_4,
+    ResultsWaitPage4,
     Results,
 ]
