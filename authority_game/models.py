@@ -5,7 +5,7 @@ from otree.api import (
 import random
 
 
-author = 'Your name here'
+author = 'Claudia Marangon & Caroline Leburn'
 
 doc = """
 Your app description

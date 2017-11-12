@@ -4,7 +4,7 @@ from otree.api import (
 )
 import math
 
-author = 'Your name here'
+author = 'Claudia Marangon'
 
 doc = """
 Your app description
