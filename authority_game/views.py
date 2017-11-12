@@ -6,9 +6,28 @@ from .models import Constants
 import random
 
 class Introduction(Page):
+
     form_model = models.Player
-    form_fields = ['question1', 'question2', 'question3', 'question4']
+    form_fields = ['q1', 'q2', 'q3', 'q4']
+
+    def error_message(self, values):
+        if not (values["q1"] == Constants.answ1):
+            return 'You got question 1 wrong!'
+
+        if not (values["q2"] == Constants.answ2):
+            return 'You got question 2 wrong!'
+
+        if not (values["q3"]):
+            return 'You got question 3 wrong!'
+
+        if not (values["q4"] == Constants.answ4):
+            return 'You got question 4 wrong!'
     pass
+
+class Description(Page):
+    #here should create session
+    pass
+
 
 class Offer(Page):
 
@@ -74,6 +93,7 @@ class Results(Page):
 
 page_sequence = [
     Introduction,
+    Description,
     Offer,
     Decision_Authority,
     Decision_Subordinate,

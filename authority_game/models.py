@@ -21,7 +21,9 @@ class Constants(BaseConstants):
     exploit_payoff = c(10)
     subordinate_rr = c(5)
     subordinate_c = c(7)
-
+    answ1 = c(7)
+    answ2 = c(9)
+    answ4 = c(6)
     pass
 
 class Subsession(BaseSubsession):
@@ -84,18 +86,21 @@ class Group(BaseGroup):
 
 class Player(BasePlayer):
 
-    question1 = models.PositiveIntegerField(
+    q1 = models.PositiveIntegerField(
         verbose_name="Please, enter your answer below"
     )
-    question2 = models.PositiveIntegerField(
+    q2 = models.PositiveIntegerField(
         verbose_name="Please, enter your answer below"
     )
-    question3 = models.BooleanField(
+    q3 = models.BooleanField(
         widget=widgets.RadioSelect,
-        choices=['True', 'False'],
+        choices=[
+            [True, 'True'],
+            [False, 'False'],
+        ],
         verbose_name="True or False?"
     )
-    question4 = models.PositiveIntegerField(
+    q4 = models.PositiveIntegerField(
         verbose_name="Please, enter your answer below"
     )
 
@@ -109,6 +114,12 @@ class Player(BasePlayer):
             return 'Authority'
         if self.id_in_group == 2:
             return 'Subordinate'
+
+    def other_role(self):
+        if self.id_in_group == 1:
+            return 'Subordinate'
+        if self.id_in_group == 2:
+            return 'Authority'
 
     def other_player(self):
         return self.get_others_in_group()[0]
