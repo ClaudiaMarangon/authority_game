@@ -1,0 +1,16 @@
+{% extends "global/Page.html" %}
+{% load otree staticfiles %}
+
+
+{% block title %}
+        Finished !
+{% endblock %}
+
+{%block content%}
+    <p>
+        Congratulations! You have finished the Task Game. While your payment is being calculated, please complete the short survey below.
+    </p>
+
+    {% next_button %}
+
+{% endblock %}

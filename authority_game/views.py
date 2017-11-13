@@ -25,7 +25,6 @@ class Introduction(Page):
     pass
 
 class Description(Page):
-    #here should create session
     pass
 
 class Offer(Page):
@@ -124,6 +123,15 @@ class Results(Page):
         }
 
 
+class ChangeOfPartner(Page):
+    def is_displayed(self):
+        return self.round_number in [8, 16, 24, 32]
+
+class Finale_Page(Page):
+    def is_displayed(self):
+        return self.round_number == 40
+
+
 
 page_sequence = [
     Introduction,
@@ -137,4 +145,6 @@ page_sequence = [
     Decision_Subordinate_4,
     ResultsWaitPage4,
     Results,
+    ChangeOfPartner,
+    Finale_Page
 ]
