@@ -139,6 +139,7 @@ SESSION_CONFIGS = [
             'questionnaire',
             'circle_task',
         ],
+        'use_browser_bots': True,
     },
     {
         'name': 'questionnaire',

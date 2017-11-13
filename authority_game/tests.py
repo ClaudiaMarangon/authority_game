@@ -7,8 +7,9 @@ from .models import Constants
 class PlayerBot(Bot):
     def play_round(self):
 
-        yield (views.Introduction, {"q1": c(7), "q2": c(9), "q3": "True", "q4": c(6)})
-        yield (views.Description)
+        if self.round_number == 1:
+            yield (views.Introduction, {"q1": c(7), "q2": c(9), "q3": "True", "q4": c(6)})
+            yield (views.Description)
 
         if self.player.role() == 'Authority':
             yield (views.Offer, {'offer': c(2)})
