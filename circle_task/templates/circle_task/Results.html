@@ -6,11 +6,7 @@
 {% endblock %}
 
 {% block content %}
-    {% if player1 %}
-        As previously chosen, your payoff is {{ player.payoff }}.
-    {% else %}
-        Your payoff is {{ player.payoff }}
-    {% endif %}
+        As previously chosen, your payoff is {{ player.choicep1 }}.
     {% next_button %}
 {% endblock %}
 

@@ -60,7 +60,7 @@ AWS_SECRET_ACCESS_KEY = environ.get('AWS_SECRET_ACCESS_KEY')
 # e.g. EUR, CAD, GBP, CHF, CNY, JPY
 REAL_WORLD_CURRENCY_CODE = 'EUR'
 USE_POINTS = True
-POINTS_DECIMAL_PLACES = 2
+POINTS_DECIMAL_PLACES = 0
 
 # e.g. en, de, fr, it, ja, zh-hans
 # see: https://docs.djangoproject.com/en/1.9/topics/i18n/#term-language-code
@@ -133,7 +133,7 @@ SESSION_CONFIGS = [
     {
         'name': 'authority_game',
         'display_name': "Authority Game",
-        'num_demo_participants': 2,
+        'num_demo_participants': 6,
         'app_sequence': [
             'authority_game',
             'questionnaire',
@@ -151,7 +151,7 @@ SESSION_CONFIGS = [
     {
         'name': 'circle_task',
         'display_name': "Circle task",
-        'num_demo_participants': 2,
+        'num_demo_participants': 1,
         'app_sequence': [
             'circle_task',
         ],

@@ -7,6 +7,9 @@ import random
 
 class Introduction(Page):
 
+    def is_displayed(self):
+        return self.round_number == 1
+
     form_model = models.Player
     form_fields = ['q1', 'q2', 'q3', 'q4']
 
@@ -25,6 +28,8 @@ class Introduction(Page):
     pass
 
 class Description(Page):
+    def is_displayed(self):
+        return self.round_number == 1
     pass
 
 class Offer(Page):
