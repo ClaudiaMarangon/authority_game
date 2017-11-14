@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3828ace-4825-4d82-877b-e0412869bdef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/authority_game/templates/authority_game/ChangeOfPartner.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authoritygame/tests.py" afterPath="$PROJECT_DIR$/authoritygame/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="137" column="29" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
+            <state relative-caret-position="303">
+              <caret line="140" column="6" lean-forward="true" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authoritygame/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authority_game/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1675">
+              <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -42,7 +62,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/authoritygame" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -62,7 +82,6 @@
         <option value="$PROJECT_DIR$/authoritygame/models.py" />
         <option value="$PROJECT_DIR$/authority_game/models.py" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Introduction.html" />
-        <option value="$PROJECT_DIR$/authoritygame/tests.py" />
         <option value="$PROJECT_DIR$/circle_task/templates/circle_task/Circle graph2.html" />
         <option value="$PROJECT_DIR$/circle_task/views.py" />
         <option value="$PROJECT_DIR$/circle_task/models.py" />
@@ -72,9 +91,10 @@
         <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_models.py" />
         <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_views.py" />
         <option value="$PROJECT_DIR$/authoritygame/views.py" />
-        <option value="$PROJECT_DIR$/authority_game/views.py" />
         <option value="$PROJECT_DIR$/authority_game/tests.py" />
+        <option value="$PROJECT_DIR$/authority_game/views.py" />
         <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/authoritygame/tests.py" />
       </list>
     </option>
   </component>
@@ -117,6 +137,24 @@
               <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
               <item name="authority_game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="authority_game" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="authority_game" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="authority_game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="authoritygame" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -464,24 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/ChangeOfPartner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authoritygame/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authority_game/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -606,14 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authority_game/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -630,10 +642,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/ChangeOfPartner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="137" column="29" lean-forward="false" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
+        <state relative-caret-position="303">
+          <caret line="140" column="6" lean-forward="true" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1675">
+          <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authoritygame/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
           <folding />
         </state>
       </provider>
