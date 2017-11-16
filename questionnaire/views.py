@@ -18,8 +18,16 @@ class Survey3(Page):
     form_fields = ['risk_aversion']
     pass
 
+
+class Comments(Page):
+    form_model = models.Player
+    form_fields = ['process', 'comments']
+    pass
+
+
 page_sequence = [
     Survey1,
     Survey2,
     Survey3,
+    Comments,
 ]

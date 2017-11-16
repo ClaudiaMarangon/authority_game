@@ -1,0 +1,21 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Comments
+{% endblock %}
+
+{% block content %}
+
+    <p>We would like to know your thinking process for how made your decision in the Task Game. Please briefly describe
+    how you made your choices in the box below</p>
+
+    {% formfield player.process %}
+
+    <p>Finally, if you have any other comments or suggestions you can write them in the box below.</p>
+
+    {% formfield player.comments %}
+
+    {% next_button %}
+
+{% endblock %}

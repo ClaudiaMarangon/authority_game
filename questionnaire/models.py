@@ -161,4 +161,15 @@ class Player(BasePlayer):
         ],
         widget = widgets.RadioSelect
     )
+
+    process = models.TextField(
+        verbose_name = '[Max. 500 characters open-text box - must not be left blank]',
+        max_length = 500
+    )
+
+    comments = models.TextField(
+        verbose_name='[Max. 500 characters open-text box - can be left blank]',
+        blank = True,
+        max_length=500
+    )
     pass
