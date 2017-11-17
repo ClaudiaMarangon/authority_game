@@ -6,7 +6,14 @@
 {% endblock %}
 
 {% block content %}
-        As previously chosen, your payoff is {{ player.choicep1 }}.
+        <p>You chose to keep to yourself {{ player.choice }} and to give to your partner {{ player.otherpay |floatformat:2 }}.
+            While your partner chose to keep for himself {{ player.partner_choice }} and to give you
+            {{ player.partner_yourp|floatformat:2 }}.</p>
+
+        <p>
+            Therefore, your payoff is {{ player.payoff }}
+        </p>
+
     {% next_button %}
 {% endblock %}
 

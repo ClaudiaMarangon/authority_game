@@ -6,9 +6,15 @@ from .models import Constants
 
 
 
-class ChoiceP1(Page):
+class Choice(Page):
     form_model = models.Player
-    form_fields = ['choicep1', 'p2pay']
+    form_fields = ['choice', 'otherpay']
+    pass
+
+class ResultsWaitPage(WaitPage):
+    def after_all_players_arrive(self):
+        for p in self.group.get_players():
+            p.set_payoffs()
     pass
 
 class Results(Page):
@@ -16,6 +22,7 @@ class Results(Page):
 
 
 page_sequence = [
-    ChoiceP1,
+    Choice,
+    ResultsWaitPage,
     Results,
 ]
