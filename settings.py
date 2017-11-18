@@ -138,6 +138,7 @@ SESSION_CONFIGS = [
             'authority_game',
             'questionnaire',
             'circle_task',
+            'final_payoff',
         ],
         'use_browser_bots': False,
     },
@@ -155,6 +156,14 @@ SESSION_CONFIGS = [
         'num_demo_participants': 2,
         'app_sequence': [
             'circle_task',
+        ],
+    },
+    {
+        'name': 'final_payoff',
+        'display_name': "Final Payoff",
+        'num_demo_participants': 1,
+        'app_sequence': [
+            'final_payoff',
         ],
     },
 

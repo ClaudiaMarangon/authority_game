@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Congratulations!
+{% endblock %}
+
+{% block content %}
+    <p>You reached the end of the game. </p>
+    <p>The payoff you earned from the five randomly chosen rounds of the Task Game is  {{ participant.vars.task_payoff }}</p>
+    <p>While the payoff you earned from the Circle Task is {{ participant.vars.circlet_payoff }}</p>
+
+    <p>Therefore, your total payoff is <b>{{ participant.vars.final_payoff }}</b></p>
+
+    {% next_button %}
+{% endblock %}
+
+
+

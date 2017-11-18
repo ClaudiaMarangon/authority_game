@@ -26,8 +26,8 @@ class Comments(Page):
 
 
 page_sequence = [
-    Survey1,
-    Survey2,
-    Survey3,
+    #Survey1,
+    #Survey2,
+    #Survey3,
     Comments,
 ]

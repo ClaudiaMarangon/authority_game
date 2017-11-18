@@ -1,0 +1,12 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Thank You!
+{% endblock %}
+
+{% block content %}
+    Thank you for taking part to this experiment. Click the <b>Next Button</b> to see your total payoff.
+    {% next_button %}
+
+{% endblock %}

@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3828ace-4825-4d82-877b-e0412869bdef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/circle_task/templates/circle_task/ChoiceP1.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authoritygame" afterPath="$PROJECT_DIR$/authoritygame" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authoritygame/Questionnaire/views.py" afterPath="$PROJECT_DIR$/authoritygame/Questionnaire/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authority_game/models.py" afterPath="$PROJECT_DIR$/authority_game/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate.html" afterPath="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_2.html" afterPath="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_4.html" afterPath="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authority_game/templates/authority_game/Finale_Page.html" afterPath="$PROJECT_DIR$/authority_game/templates/authority_game/Finale_Page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authority_game/views.py" afterPath="$PROJECT_DIR$/authority_game/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle_task/models.py" afterPath="$PROJECT_DIR$/circle_task/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle_task/templates/circle_task/Circle graph2.html" afterPath="$PROJECT_DIR$/circle_task/templates/circle_task/Circle graph2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle_task/templates/circle_task/Results.html" afterPath="$PROJECT_DIR$/circle_task/templates/circle_task/Results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circle_task/views.py" afterPath="$PROJECT_DIR$/circle_task/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire/views.py" afterPath="$PROJECT_DIR$/questionnaire/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,38 +21,61 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Authority_Game$Test__circle_task_templates_circle_task.coverage" NAME="Test: circle_task.templates.circle_task Coverage Results" MODIFIED="1509972519037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Authority_Game$Test__circle_task_templates_circle_task.coverage" NAME="Test: circle_task.templates.circle_task Coverage Results" MODIFIED="1510997973426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Authority_Game$views.coverage" NAME="views Coverage Results" MODIFIED="1510998002041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/authority_game" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/circle_task/models.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final_payoff/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Results.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/final_payoff/templates/final_payoff/Results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Results.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/circle_task/templates/circle_task/Results.html">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/final_payoff/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="430">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/circle_task/views.py">
+        <entry file="file://$PROJECT_DIR$/authority_game/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="124" column="70" lean-forward="false" selection-start-line="124" selection-start-column="70" selection-end-line="124" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/circle_task/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -81,32 +104,37 @@
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Description.html" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Auth_payoffs.html" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Offer.html" />
-        <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate.html" />
-        <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_2.html" />
-        <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_4.html" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Authority.html" />
         <option value="$PROJECT_DIR$/authoritygame/models.py" />
-        <option value="$PROJECT_DIR$/authority_game/models.py" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Introduction.html" />
-        <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_Results.html" />
-        <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_Circle graph2.html" />
-        <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_models.py" />
-        <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_views.py" />
         <option value="$PROJECT_DIR$/authoritygame/views.py" />
         <option value="$PROJECT_DIR$/authority_game/tests.py" />
-        <option value="$PROJECT_DIR$/authority_game/views.py" />
         <option value="$PROJECT_DIR$/authoritygame/tests.py" />
         <option value="$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html" />
         <option value="$PROJECT_DIR$/questionnaire/models.py" />
-        <option value="$PROJECT_DIR$/questionnaire/views.py" />
         <option value="$PROJECT_DIR$/authoritygame/Questionnaire/models.py" />
         <option value="$PROJECT_DIR$/circle_task/templates/circle_task/Choice.html" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/circle_task/views.py" />
-        <option value="$PROJECT_DIR$/authoritygame/Questionnaire/views.py" />
         <option value="$PROJECT_DIR$/circle_task/templates/circle_task/Circle graph2.html" />
-        <option value="$PROJECT_DIR$/circle_task/models.py" />
         <option value="$PROJECT_DIR$/circle_task/templates/circle_task/Results.html" />
+        <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_Results.html" />
+        <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_models.py" />
+        <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_views.py" />
+        <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_Circle graph2.html" />
+        <option value="$PROJECT_DIR$/authority_game/models.py" />
+        <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Finale_Page.html" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/final_payoff/templates/final_payoff/MyPage.html" />
+        <option value="$PROJECT_DIR$/authoritygame/Questionnaire/views.py" />
+        <option value="$PROJECT_DIR$/questionnaire/views.py" />
+        <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate.html" />
+        <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_2.html" />
+        <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_4.html" />
+        <option value="$PROJECT_DIR$/final_payoff/views.py" />
+        <option value="$PROJECT_DIR$/authority_game/views.py" />
+        <option value="$PROJECT_DIR$/circle_task/models.py" />
+        <option value="$PROJECT_DIR$/final_payoff/templates/final_payoff/Results.html" />
+        <option value="$PROJECT_DIR$/final_payoff/models.py" />
       </list>
     </option>
   </component>
@@ -150,20 +178,48 @@
             <path>
               <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
-              <item name="circle_task" type="462c0819:PsiDirectoryNode" />
+              <item name="authority_game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
-              <item name="circle_task" type="462c0819:PsiDirectoryNode" />
+              <item name="authority_game" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
-              <item name="circle_task" type="462c0819:PsiDirectoryNode" />
+              <item name="authority_game" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="authority_game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
               <item name="circle_task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="final_payoff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="final_payoff" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="final_payoff" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="final_payoff" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="questionnaire" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -179,6 +235,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/authoritygame/Circle Task" />
       <recent name="$PROJECT_DIR$/authoritygame/Questionnaire" />
       <recent name="$PROJECT_DIR$/authority_game/templates/authority_game" />
       <recent name="$PROJECT_DIR$/circle_task/templates/circle_task" />
@@ -199,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: circle_task.templates.circle_task">
+  <component name="RunManager" selected="Python.views">
     <configuration name="Test: circle_task.templates.circle_task" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,9 +276,32 @@
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
     </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/authority_game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Authority Game" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/authority_game/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Django tests.Test: circle_task.templates.circle_task" />
+      <item index="1" class="java.lang.String" itemvalue="Python.views" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Django tests.Test: circle_task.templates.circle_task" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.views" />
+        <item index="1" class="java.lang.String" itemvalue="Django tests.Test: circle_task.templates.circle_task" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +325,9 @@
     <history-entry file="Test__circle_task_templates_circle_task - 2017.11.06 at 13h 48m 52s.xml">
       <configuration name="Test: circle_task.templates.circle_task" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
+    <history-entry file="Test__circle_task_templates_circle_task - 2017.11.18 at 10h 39m 38s.xml">
+      <configuration name="Test: circle_task.templates.circle_task" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -255,12 +338,12 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.44849786" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -273,31 +356,6 @@
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.55150217" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.44849786" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30472103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.48855507" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -312,52 +370,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Circle Task.html" />
-    <entry file="file://$PROJECT_DIR$/Circle graph/Circle coordinates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/circle_task/templates/circle_task/Circle graph.html" />
-    <entry file="file://$PROJECT_DIR$/circle_task/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/circle_task/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authoritygame/Questionnaire/Survey2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/static/authority_game/jquery-ui.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authority_game/static/authority_game/jquery-ui.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -373,14 +385,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Instructions.html" />
-    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Offer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -393,22 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="42" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="49" column="42" lean-forward="false" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -444,14 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Finale_Page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Description.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -465,28 +445,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authoritygame/Circle Task/CT_Results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authoritygame/Circle Task/CT_Circle graph2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="57" column="4" lean-forward="false" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authoritygame/Circle Task/CT_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -575,22 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/questionnaire/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authoritygame/Circle Task/CT_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/circle_task/templates/circle_task/ChoiceP1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -599,26 +541,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/circle_task/templates/circle_task/Choice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -639,10 +565,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/views.py">
+    <entry file="file://$PROJECT_DIR$/circle_task/templates/circle_task/Circle graph2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="118" column="12" lean-forward="false" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+        <state relative-caret-position="388">
+          <caret line="58" column="57" lean-forward="false" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authoritygame/Circle Task/CT_Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_task/templates/circle_task/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authoritygame/Circle Task/CT_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authoritygame/Circle Task/CT_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authoritygame/Circle Task/CT_Circle graph2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authoritygame/Circle Task/Choice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_payoff/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Finale_Page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -655,10 +653,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/circle_task/templates/circle_task/Circle graph2.html">
+    <entry file="file://$PROJECT_DIR$/questionnaire/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="58" column="57" lean-forward="false" selection-start-line="58" selection-start-column="57" selection-end-line="58" selection-end-column="57" />
+        <state relative-caret-position="405">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_payoff/templates/final_payoff/MyPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="104" lean-forward="false" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
           <folding />
         </state>
       </provider>
@@ -671,18 +677,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/circle_task/models.py">
+    <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="401">
+          <caret line="140" column="27" lean-forward="false" selection-start-line="140" selection-start-column="27" selection-end-line="140" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/circle_task/templates/circle_task/Results.html">
+    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="46" column="38" lean-forward="false" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_task/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="124" column="70" lean-forward="false" selection-start-line="124" selection-start-column="70" selection-end-line="124" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_payoff/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_payoff/templates/final_payoff/Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_payoff/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>

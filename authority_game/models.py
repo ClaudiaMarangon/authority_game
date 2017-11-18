@@ -15,7 +15,7 @@ Your app description
 class Constants(BaseConstants):
     name_in_url = 'authority_game'
     players_per_group = 2
-    num_rounds = 40
+    num_rounds = 2      #HAI CAMBIATO IL NUMERO DI ROUND
     authority_cr = c(5)
     authority_rr = c(3)
     exploit_payoff = c(10)
@@ -28,11 +28,12 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
-    def creating_session(self):
-        if self.round_number in [1, 9, 17, 25, 33]:
-            self.group_randomly(fixed_id_in_group=True)
-        else:
-            self.group_like_round(self.round_number - 1)
+    pass
+#    def creating_session(self):
+#        if self.round_number in [1, 9, 17, 25, 33]:
+#            self.group_randomly(fixed_id_in_group=True)
+#        else:
+#            self.group_like_round(self.round_number - 1)
 
 
 class Group(BaseGroup):

@@ -41,4 +41,5 @@ class Player(BasePlayer):
 
     def set_payoffs(self):
         self.payoff = self.choice + self.partner_yourp()
+        self.participant.vars['circlet_payoff'] = self.payoff
     pass
