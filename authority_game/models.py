@@ -15,7 +15,7 @@ Your app description
 class Constants(BaseConstants):
     name_in_url = 'authority_game'
     players_per_group = 2
-    num_rounds = 2      #HAI CAMBIATO IL NUMERO DI ROUND
+    num_rounds = 1      #HAI CAMBIATO IL NUMERO DI ROUND
     authority_cr = c(5)
     authority_rr = c(3)
     exploit_payoff = c(10)

@@ -138,7 +138,7 @@ class Results(Page):
 
 class Finale_Page(Page):
     def is_displayed(self):
-        return self.round_number == 2       #change to 40
+        return self.round_number == 1       #change to 40
 
 
 
