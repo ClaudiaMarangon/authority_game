@@ -10,6 +10,16 @@
             While your partner chose to keep for himself {{ player.partner_choice }} and to give you
             {{ player.partner_yourp|floatformat:2 }}.</p>
 
+    {% if P_choice %}
+        <p>
+            It was randomly chosen to set payoffs according to your choice.
+        </p>
+    {% else %}
+        <p>
+            It was randomly chosen to set payoffs according to your partner's choice.
+        </p>
+    {% endif %}
+
         <p>
             Therefore, your payoff is {{ player.payoff }}
         </p>

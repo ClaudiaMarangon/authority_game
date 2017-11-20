@@ -6,7 +6,9 @@
 {% endblock %}
 
 {% block content %}
-
+    <p>
+        Now, please read the following individual descriptions and answer how closely they sound like yourself:
+    </p>
     {% for field in form %}
         {% formfield field %}
     {% endfor %}

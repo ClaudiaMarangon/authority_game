@@ -13,11 +13,14 @@ class Choice(Page):
 
 class ResultsWaitPage(WaitPage):
     def after_all_players_arrive(self):
-        for p in self.group.get_players():
-            p.set_payoffs()
+        self.group.set_payoffs()
     pass
 
 class Results(Page):
+    def vars_for_template(self):
+        return {
+            'P_choice': Constants.ran_numb == self.player.id_in_group,
+        }
     pass
 
 

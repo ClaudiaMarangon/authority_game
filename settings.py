@@ -136,8 +136,8 @@ SESSION_CONFIGS = [
         'num_demo_participants': 2,
         'app_sequence': [
             'authority_game',
-            'questionnaire',
             'circle_task',
+            'questionnaire',
             'final_payoff',
         ],
         'use_browser_bots': False,

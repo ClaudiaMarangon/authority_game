@@ -3,6 +3,7 @@ from otree.api import (
     Currency as c, currency_range
 )
 import math
+import random
 
 author = 'Claudia Marangon'
 
@@ -16,6 +17,7 @@ class Constants(BaseConstants):
     players_per_group = 2
     num_rounds = 1
     endowmentsqr = float(100)
+    ran_numb = random.randrange(1,2)
 
 
 class Subsession(BaseSubsession):
@@ -23,6 +25,20 @@ class Subsession(BaseSubsession):
 
 
 class Group(BaseGroup):
+
+    def set_payoffs(self):
+        p1 = self.get_player_by_id(1)
+        p2 = self.get_player_by_id(2)
+        if Constants.ran_numb == 1:
+            p1.payoff = p1.choice
+            p2.payoff = p1.otherpay
+
+        else:
+            p1.payoff = p2.otherpay
+            p2.payoff = p2.choice
+
+        p1.participant.vars['circlet_payoff'] = p1.payoff
+        p2.participant.vars['circlet_payoff'] = p2.payoff
     pass
 
 
@@ -39,7 +55,5 @@ class Player(BasePlayer):
     def partner_yourp(self):
         return self.other_player().otherpay
 
-    def set_payoffs(self):
-        self.payoff = self.choice + self.partner_yourp()
-        self.participant.vars['circlet_payoff'] = self.payoff
+
     pass

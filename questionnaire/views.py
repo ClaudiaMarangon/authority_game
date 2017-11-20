@@ -5,17 +5,12 @@ from .models import Constants
 
 class Survey1(Page):
     form_model = models.Player
-    form_fields = ['age', 'gender', 'economics', 'game_theory', 'grade_gt']
+    form_fields = ['age', 'gender', 'economics', 'other', 'game_theory', 'grade_gt']
     pass
 
 class Survey2(Page):
     form_model = models.Player
-    form_fields = ['rules', 'others_op', 'polite', 'satisfaction', 'religious', 'tradition', 'planning', 'interest', 'independent']
-    pass
-
-class Survey3(Page):
-    form_model = models.Player
-    form_fields = ['risk_aversion']
+    form_fields = ['rules', 'others_op', 'polite', 'satisfaction', 'religious', 'tradition', 'planning', 'interest', 'independent', 'govt_inter', 'egoism', 'wealth', 'risk_aversion']
     pass
 
 
@@ -28,6 +23,5 @@ class Comments(Page):
 page_sequence = [
     Survey1,
     Survey2,
-    Survey3,
     Comments,
 ]

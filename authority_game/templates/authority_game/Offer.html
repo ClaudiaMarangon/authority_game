@@ -6,15 +6,22 @@
 {% endblock %}
 
 {% block content %}
+
+    <p>
+        Click through the three tabs to see the payoff tables for each conditional offer amount.
+    </p>
     <p>
     {% include 'authority_game/Auth_payoffs.html' %}
     </p>
 
     <p>
-        Please, choose the amount of reward from contributing to offer to the subordinate:
+        Now, please choose the amount of reward to offer to the Subordinate if the Subordinate performs the task:
     </p>
 
-    {% formfield group.offer label="I choose:" %}
+    {% formfield group.offer label="I offer:" %}
+    <p>
+        <b>to the Subordinate if the Subordinate performs the task.</b>
+    </p>
 
     {% next_button %}
 

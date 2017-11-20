@@ -3,7 +3,7 @@
 
 
 {% block title %}
-        Contribute or Refuse - Offer = 0?
+        Perform the task or not? - Offer = 0
 {% endblock %}
 
 {% block styles %}
@@ -46,14 +46,14 @@
             </tr>
             <tr class="highlight-row-on-hover">
                 <th rowspan="2" style="vertical-align: middle">The Subordinate</th>
-                <td><button name="decision" value="Contribute" class="btn btn-primary btn-large">I will contribute</button></td>
-                <td>7.00 points, 5.00 points</td>
-                <td>7.00 points, 10.00 points</td>
+                <td><button name="decision" value="Contribute" class="btn btn-primary btn-large">I will perform the task</button></td>
+                <td>7, 5 </td>
+                <td>7, 10 </td>
             </tr>
             <tr class="highlight-row-on-hover">
-                <td><button name="decision" value="Refuse" class="btn btn-primary btn-large">I will refuse</button></td>
-                <td>{{ Constants.exploit_payoff }}, {{ Constants.authority_cr }}</td>
-                <td>{{ Constants.subordinate_rr }}, {{ Constants.authority_rr }}</td>
+                <td><button name="decision" value="Refuse" class="btn btn-primary btn-large">I will not perform the task</button></td>
+                <td>{{ Constants.exploit_payoff|floatformat:0 }}, {{ Constants.authority_cr|floatformat:0 }}</td>
+                <td>{{ Constants.subordinate_rr|floatformat:0 }}, {{ Constants.authority_rr|floatformat:0 }}</td>
             </tr>
         </table>
     </div>
