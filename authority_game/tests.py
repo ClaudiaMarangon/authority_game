@@ -8,17 +8,17 @@ class PlayerBot(Bot):
     def play_round(self):
 
         if self.round_number == 1:
-            yield (views.Introduction, {"q1": c(7), "q2": c(9), "q3": "True", "q4": c(6)})
+            yield (views.Introduction, {"q1": int(c(7)), "q2": int(c(9)), "q3": "True", "q4": int(c(6))})
             yield (views.Description)
 
         if self.player.role() == 'Authority':
-            yield (views.Offer, {'offer': c(2)})
-            yield (views.Decision_Authority, {"decision": 'Refuse'})
+            yield (views.Offer, {'offer': int(c(2))})
+            yield (views.Decision_Authority, {"decision": 'not perform the Task'})
 
         if self.player.role() == 'Subordinate':
-            yield (views.Decision_Subordinate, {"decision": "Refuse"})
-            yield (views.Decision_Subordinate_2, {"decision": 'Contribute'})
-            yield (views.Decision_Subordinate_4, {"decision": 'Contribute'})
+            yield (views.Decision_Subordinate, {"decision": "not perform the Task"})
+            yield (views.Decision_Subordinate_2, {"decision": 'perform the Task'})
+            yield (views.Decision_Subordinate_4, {"decision": 'perform the Task'})
         yield (views.Results)
 
         if self.round_number in [Constants.number_rounds_per_partner * x for x in range(1, Constants.number_partners)]:

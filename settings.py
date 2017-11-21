@@ -135,12 +135,12 @@ SESSION_CONFIGS = [
         'display_name': "Authority Game",
         'num_demo_participants': 2,
         'app_sequence': [
-            'authority_game',
-            'circle_task',
-            'questionnaire',
-            'final_payoff',
+           'authority_game',
+           'circle_task',
+           'questionnaire',
+           'final_payoff',
         ],
-        'use_browser_bots': False,
+        'use_browser_bots': True,
     },
     {
         'name': 'questionnaire',

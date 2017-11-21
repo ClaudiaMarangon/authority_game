@@ -1,0 +1,321 @@
+participant.id_in_session,participant.code,participant.label,participant._is_bot,participant._index_in_pages,participant._max_page_index,participant._current_app_name,participant._round_number,participant._current_page_name,participant.ip_address,participant.time_started,participant.visited,participant.mturk_worker_id,participant.mturk_assignment_id,participant.payoff,player.id_in_group,player.q1,player.q2,player.q3,player.q4,player.decision,player.payoff,group.id_in_subsession,group.offer,subsession.round_number,session.code,session.label,session.experimenter_name,session.mturk_HITId,session.mturk_HITGroupId,session.comment,session.is_demo
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,7,9,1,6,not perform the Task,8.00,2,2.00,1,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,7,9,1,6,perform the Task,9.00,2,2.00,1,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,7,9,1,6,not perform the Task,8.00,1,2.00,1,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,7,9,1,6,perform the Task,9.00,1,2.00,1,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,7,9,1,6,not perform the Task,8.00,3,2.00,1,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,7,9,1,6,perform the Task,9.00,3,2.00,1,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,7,9,1,6,not perform the Task,8.00,4,2.00,1,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,7,9,1,6,perform the Task,9.00,4,2.00,1,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,2,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,2,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,2,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,2,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,2,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,2,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,2,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,2,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,3,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,3,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,3,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,3,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,3,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,3,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,3,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,3,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,4,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,4,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,4,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,4,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,4,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,4,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,4,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,4,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,5,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,5,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,5,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,5,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,5,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,5,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,5,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,5,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,6,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,6,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,6,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,6,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,6,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,6,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,6,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,6,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,7,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,7,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,7,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,7,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,7,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,7,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,7,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,7,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,8,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,8,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,8,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,8,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,8,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,8,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,8,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,8,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,9,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,9,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,9,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,9,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,9,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,9,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,9,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,9,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,10,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,10,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,10,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,10,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,10,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,10,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,10,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,10,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,11,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,11,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,11,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,11,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,11,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,11,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,11,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,11,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,12,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,12,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,12,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,12,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,12,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,12,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,12,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,12,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,13,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,13,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,13,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,13,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,13,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,13,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,13,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,13,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,14,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,14,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,14,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,14,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,14,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,14,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,14,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,14,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,15,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,15,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,15,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,15,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,15,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,15,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,15,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,15,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,16,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,16,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,16,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,16,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,16,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,16,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,16,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,16,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,17,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,17,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,17,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,17,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,17,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,17,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,17,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,17,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,18,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,18,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,18,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,18,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,18,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,18,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,18,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,18,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,19,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,19,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,19,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,19,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,19,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,19,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,19,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,19,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,20,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,20,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,20,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,20,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,20,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,20,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,20,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,20,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,21,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,21,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,21,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,21,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,21,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,21,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,21,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,21,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,22,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,22,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,22,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,22,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,22,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,22,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,22,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,22,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,23,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,23,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,23,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,23,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,23,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,23,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,23,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,23,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,24,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,24,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,24,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,24,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,24,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,24,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,24,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,24,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,25,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,25,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,25,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,25,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,25,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,25,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,25,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,25,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,26,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,26,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,26,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,26,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,26,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,26,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,26,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,26,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,27,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,27,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,27,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,27,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,27,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,27,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,27,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,27,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,28,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,28,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,28,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,28,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,28,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,28,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,28,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,28,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,29,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,29,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,29,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,29,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,29,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,29,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,29,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,29,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,30,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,30,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,30,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,30,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,30,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,30,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,30,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,30,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,31,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,31,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,31,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,31,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,31,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,31,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,31,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,31,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,32,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,32,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,32,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,32,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,32,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,32,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,32,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,32,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,33,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,33,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,33,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,33,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,33,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,33,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,33,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,33,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,34,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,34,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,34,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,34,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,34,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,34,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,34,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,34,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,35,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,35,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,35,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,35,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,35,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,35,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,35,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,35,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,36,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,36,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,36,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,36,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,36,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,36,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,36,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,36,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,37,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,37,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,37,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,37,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,37,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,37,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,37,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,37,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,38,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,38,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,38,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,38,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,38,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,38,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,38,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,38,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,39,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,39,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,39,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,39,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,39,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,39,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,39,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,39,xs0bftyy,,,,,,0
+1,bp4j20i0,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.367615+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,2,2.00,40,xs0bftyy,,,,,,0
+2,o6098otv,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.403998+00:00,1,,,360.00,2,,,,,perform the Task,9.00,2,2.00,40,xs0bftyy,,,,,,0
+3,52jdkcpj,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.423811+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,1,2.00,40,xs0bftyy,,,,,,0
+4,ct1k3cle,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.444984+00:00,1,,,360.00,2,,,,,perform the Task,9.00,3,2.00,40,xs0bftyy,,,,,,0
+5,714b3ktr,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.468669+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,3,2.00,40,xs0bftyy,,,,,,0
+6,py52thzp,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.489174+00:00,1,,,360.00,2,,,,,perform the Task,9.00,1,2.00,40,xs0bftyy,,,,,,0
+7,sxdigeqi,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.513984+00:00,1,,,320.00,1,,,,,not perform the Task,8.00,4,2.00,40,xs0bftyy,,,,,,0
+8,xj5y4ha8,,1,521,520,authority_game,40,Finale_Page,127.0.0.1,2017-11-21 14:32:26.537193+00:00,1,,,360.00,2,,,,,perform the Task,9.00,4,2.00,40,xs0bftyy,,,,,,0
