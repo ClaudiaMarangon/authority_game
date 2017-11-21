@@ -140,7 +140,7 @@ SESSION_CONFIGS = [
            'questionnaire',
            'final_payoff',
         ],
-        'use_browser_bots': True,
+        'use_browser_bots': False,
     },
     {
         'name': 'questionnaire',
