@@ -122,7 +122,11 @@ class ResultsWaitPage4(WaitPage):
 class Results(Page):
 
     def before_next_page(self):
-            self.player.participant.vars['task_payoff'] = self.player.payoff   #rearrange when 5 random chosen payoff are given
+        if self.round_number == 1:
+            self.player.participant.vars['task_payoff'] = self.player.payoff
+        else:
+            self.player.participant.vars['task_payoff'] = self.player.participant.vars['task_payoff'] + self.player.payoff
+
 
     def vars_for_template(self):
         return {
@@ -132,13 +136,16 @@ class Results(Page):
         }
 
 
-#class ChangeOfPartner(Page):
-#    def is_displayed(self):
-#       return self.round_number in [8, 16, 24, 32]
+class ChangeOfPartner(Page):
+    def is_displayed(self):
+        return self.round_number in [Constants.number_rounds_per_partner * x for x in
+                                     range(1, Constants.number_partners)]
+
 
 class Finale_Page(Page):
     def is_displayed(self):
-        return self.round_number == 1       #change to 40
+        return self.round_number == Constants.num_rounds
+
 
 
 
@@ -154,6 +161,6 @@ page_sequence = [
     Decision_Subordinate_4,
     ResultsWaitPage4,
     Results,
-#    ChangeOfPartner,
+    ChangeOfPartner,
     Finale_Page
 ]

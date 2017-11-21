@@ -21,8 +21,8 @@ class PlayerBot(Bot):
             yield (views.Decision_Subordinate_4, {"decision": 'Contribute'})
         yield (views.Results)
 
-        if self.round_number in [8, 16, 24, 32]:
+        if self.round_number in [Constants.number_rounds_per_partner * x for x in range(1, Constants.number_partners)]:
             yield (views.ChangeOfPartner)
 
-        if self.round_number == 40:
+        if self.round_number == Constants.num_rounds:
             yield (views.Finale_Page)

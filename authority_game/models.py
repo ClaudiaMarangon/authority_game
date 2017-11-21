@@ -5,7 +5,7 @@ from otree.api import (
 import random
 
 
-author = 'Claudia Marangon & Caroline Leburn'
+author = 'Claudia Marangon & Caroline Lebrun'
 
 doc = """
 Your app description
@@ -15,7 +15,9 @@ Your app description
 class Constants(BaseConstants):
     name_in_url = 'authority_game'
     players_per_group = 2
-    num_rounds = 1      #HAI CAMBIATO IL NUMERO DI ROUND
+    number_partners = 2
+    number_rounds_per_partner = 1
+    num_rounds = number_partners * number_rounds_per_partner
     authority_cr = c(5)
     authority_rr = c(3)
     exploit_payoff = c(10)
@@ -28,12 +30,11 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
-    pass
-#    def creating_session(self):
-#        if self.round_number in [1, 9, 17, 25, 33]:
-#            self.group_randomly(fixed_id_in_group=True)
-#        else:
-#            self.group_like_round(self.round_number - 1)
+    def creating_session(self):
+        if self.round_number in [1 + Constants.number_rounds_per_partner * x for x in range(Constants.number_partners)]:
+            self.group_randomly(fixed_id_in_group=True)
+        else:
+            self.group_like_round(self.round_number - 1)
 
 
 class Group(BaseGroup):
@@ -61,29 +62,29 @@ class Group(BaseGroup):
         subordinate = self.get_player_by_id(2)
 
         authority.payoff_matrix = {
-            'Contribute':
+            'perform the Task':
                 {
-                    'Contribute': self.authority_cc(),
-                    'Refuse': Constants.authority_cr
+                    'perform the Task': self.authority_cc(),
+                    'not perform the Task': Constants.authority_cr
                 },
-            'Refuse':
+            'not perform the Task':
                 {
-                    'Contribute': self.authority_rc(),
-                    'Refuse': Constants.authority_rr
+                    'perform the Task': self.authority_rc(),
+                    'not perform the Task': Constants.authority_rr
                 }
         }
         authority.payoff = authority.payoff_matrix[authority.decision][authority.other_player().decision]
 
         subordinate.payoff_matrix = {
-            'Contribute':
+            'perform the Task':
                 {
-                    'Contribute': self.subordinate_cc(),
-                    'Refuse': self.subordinate_rc()
+                    'perform the Task': self.subordinate_cc(),
+                    'not perform the Task': self.subordinate_rc()
                 },
-            'Refuse':
+            'not perform the Task':
                 {
-                    'Contribute': Constants.exploit_payoff,
-                    'Refuse': Constants.subordinate_rr
+                    'perform the Task': Constants.exploit_payoff,
+                    'not perform the Task': Constants.subordinate_rr
                 }
             }
         subordinate.payoff = subordinate.payoff_matrix[subordinate.decision][subordinate.other_player().decision]
@@ -111,7 +112,7 @@ class Player(BasePlayer):
     )
 
     decision = models.CharField(
-        choices=['Contribute', 'Refuse'],
+        choices=['perform the Task', 'not perform the Task'],
         widget=widgets.RadioSelect
     )
 
