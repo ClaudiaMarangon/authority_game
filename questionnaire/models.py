@@ -26,6 +26,9 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
+    player_id = models.CharField(
+        verbose_name='Please enter your name'
+    )
     age = models.PositiveIntegerField(
         verbose_name='What is your age?',
         min=13, max=100
@@ -49,11 +52,9 @@ class Player(BasePlayer):
         choices=['Yes', 'No'],
         widget=widgets.RadioSelect
     )
-    grade_gt = models.PositiveIntegerField(
+    grade_gt = models.CharField(
         verbose_name='If yes, what grade did you receive?',
-        initial=0,
-        max=31,
-        min=0
+        blank = True
     )
     rules = models.PositiveIntegerField(
         verbose_name='This person believes that people should follow rules at all times, even when no-one'
