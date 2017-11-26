@@ -45,8 +45,8 @@ class Decision_Authority(Page):
 
     def is_displayed(self):
         return self.player.role() == 'Authority'
-    form_model = models.Player
-    form_fields = ['decision']
+    form_model = models.Group
+    form_fields = ['decision_auth']
     pass
 
 
@@ -54,70 +54,33 @@ class Decision_Subordinate(Page):
 
     def is_displayed(self):
         return self.player.role() == 'Subordinate'
-    form_model = models.Player
-    form_fields = ['decision']
+    form_model = models.Group
+    form_fields = ['decision_sub0']
     pass
 
-class ResultsWaitPage(WaitPage):
-
-    def is_displayed(self):
-        if self.group.offer == 0:
-            return {self.player.role() == 'Authority',
-                    self.player.role() == 'Subordinate'}
-        else:
-            return self.player.role() == 'Subordinate'
-
-    def after_all_players_arrive(self):
-        if self.group.offer == 0:
-            self.group.set_payoff()
-
-    pass
 
 class Decision_Subordinate_2(Page):
 
     def is_displayed(self):
         return self.player.role() == 'Subordinate'
-    form_model = models.Player
-    form_fields = ['decision']
+    form_model = models.Group
+    form_fields = ['decision_sub2']
     pass
 
-class ResultsWaitPage2(WaitPage):
-
-    def is_displayed(self):
-        if self.group.offer == 2:
-            return {self.player.role() == 'Authority',
-                    self.player.role() == 'Subordinate'}
-        else:
-            return self.player.role() == 'Subordinate'
-
-    def after_all_players_arrive(self):
-        if self.group.offer == 2:
-            self.group.set_payoff()
-
-    pass
 
 class Decision_Subordinate_4(Page):
 
     def is_displayed(self):
         return self.player.role() == 'Subordinate'
-    form_model = models.Player
-    form_fields = ['decision']
+    form_model = models.Group
+    form_fields = ['decision_sub4']
     pass
 
-
-class ResultsWaitPage4(WaitPage):
-
-    def is_displayed(self):
-        if self.group.offer == 4:
-            return {self.player.role() == 'Authority',
-                    self.player.role() == 'Subordinate'}
-        else:
-            return self.player.role() == 'Subordinate'
-
+class ResultsWaitPage(WaitPage):
     def after_all_players_arrive(self):
-        if self.group.offer == 4:
-            self.group.set_payoff()
-        pass
+        self.group.set_payoff()
+
+    pass
 
 class Results(Page):
 
@@ -129,11 +92,54 @@ class Results(Page):
 
 
     def vars_for_template(self):
-        return {
-            'my_decision': self.player.decision,
-            'other_player_decision': self.player.other_player().decision,
-            'same_choice': self.player.decision == self.player.other_player().decision,
-        }
+
+        if self.player.role() == 'Authority':
+            if self.group.offer == 0:
+                return {
+                    'my_decision': self.group.decision_auth,
+                    'other_player_decision': self.group.decision_sub0,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub0,
+                }
+
+        if self.player.role() == 'Authority':
+            if self.group.offer == 2:
+                return {
+                    'my_decision': self.group.decision_auth,
+                    'other_player_decision': self.group.decision_sub2,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub2,
+                }
+
+        if self.player.role() == 'Authority':
+            if self.group.offer == 4:
+                return {
+                    'my_decision': self.group.decision_auth,
+                    'other_player_decision': self.group.decision_sub4,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub4,
+                }
+
+        if self.player.role() == 'Subordinate':
+            if self.group.offer == 0:
+                return {
+                    'my_decision': self.group.decision_sub0,
+                    'other_player_decision': self.group.decision_auth,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub0,
+                }
+
+        if self.player.role() == 'Subordinate':
+            if self.group.offer == 2:
+                return {
+                    'my_decision': self.group.decision_sub2,
+                    'other_player_decision': self.group.decision_auth,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub2,
+                }
+
+        if self.player.role() == 'Subordinate':
+            if self.group.offer == 4:
+                return {
+                    'my_decision': self.group.decision_sub4,
+                    'other_player_decision': self.group.decision_auth,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub4,
+                }
 
 
 class ChangeOfPartner(Page):
@@ -155,11 +161,9 @@ page_sequence = [
     Offer,
     Decision_Authority,
     Decision_Subordinate,
-    ResultsWaitPage,
     Decision_Subordinate_2,
-    ResultsWaitPage2,
     Decision_Subordinate_4,
-    ResultsWaitPage4,
+    ResultsWaitPage,
     Results,
     ChangeOfPartner,
     Finale_Page

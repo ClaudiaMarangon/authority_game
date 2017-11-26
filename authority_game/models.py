@@ -15,7 +15,7 @@ Your app description
 class Constants(BaseConstants):
     name_in_url = 'authority_game'
     players_per_group = 2
-    number_partners = 20
+    number_partners = 1
     number_rounds_per_partner = 1
     num_rounds = number_partners * number_rounds_per_partner
     authority_cr = c(5)
@@ -44,6 +44,25 @@ class Group(BaseGroup):
         choices=[0, 2, 4],
         widget=widgets.RadioSelect
     )
+    decision_auth = models.CharField(
+        choices=['perform the Task', 'not perform the Task'],
+        widget=widgets.RadioSelect
+    )
+
+    decision_sub0 = models.CharField(
+        choices=['perform the Task', 'not perform the Task'],
+        widget=widgets.RadioSelect
+    )
+
+    decision_sub2 = models.CharField(
+        choices=['perform the Task', 'not perform the Task'],
+        widget=widgets.RadioSelect
+    )
+
+    decision_sub4 = models.CharField(
+        choices=['perform the Task', 'not perform the Task'],
+        widget=widgets.RadioSelect
+    )
 
     def authority_rc(self):
         return Constants.exploit_payoff - self.offer
@@ -60,34 +79,93 @@ class Group(BaseGroup):
     def set_payoff(self):
         authority = self.get_player_by_id(1)
         subordinate = self.get_player_by_id(2)
-
-        authority.payoff_matrix = {
-            'perform the Task':
-                {
-                    'perform the Task': self.authority_cc(),
-                    'not perform the Task': Constants.authority_cr
-                },
-            'not perform the Task':
-                {
-                    'perform the Task': self.authority_rc(),
-                    'not perform the Task': Constants.authority_rr
-                }
-        }
-        authority.payoff = authority.payoff_matrix[authority.decision][authority.other_player().decision]
-
-        subordinate.payoff_matrix = {
-            'perform the Task':
-                {
-                    'perform the Task': self.subordinate_cc(),
-                    'not perform the Task': self.subordinate_rc()
-                },
-            'not perform the Task':
-                {
-                    'perform the Task': Constants.exploit_payoff,
-                    'not perform the Task': Constants.subordinate_rr
-                }
+        if self.offer == 0:
+            authority.payoff_matrix = {
+                'perform the Task':
+                    {
+                        'perform the Task': self.authority_cc(),
+                        'not perform the Task': Constants.authority_cr
+                    },
+                'not perform the Task':
+                    {
+                        'perform the Task': self.authority_rc(),
+                        'not perform the Task': Constants.authority_rr
+                    }
             }
-        subordinate.payoff = subordinate.payoff_matrix[subordinate.decision][subordinate.other_player().decision]
+            authority.payoff = authority.payoff_matrix[self.decision_auth][self.decision_sub0]
+
+            subordinate.payoff_matrix = {
+                'perform the Task':
+                    {
+                        'perform the Task': self.subordinate_cc(),
+                        'not perform the Task': self.subordinate_rc()
+                    },
+                'not perform the Task':
+                    {
+                        'perform the Task': Constants.exploit_payoff,
+                        'not perform the Task': Constants.subordinate_rr
+                    }
+                }
+            subordinate.payoff = subordinate.payoff_matrix[self.decision_sub0][self.decision_auth]
+
+        if self.offer == 4:
+            authority.payoff_matrix = {
+                'perform the Task':
+                    {
+                        'perform the Task': self.authority_cc(),
+                        'not perform the Task': Constants.authority_cr
+                    },
+                'not perform the Task':
+                    {
+                        'perform the Task': self.authority_rc(),
+                        'not perform the Task': Constants.authority_rr
+                    }
+            }
+            authority.payoff = authority.payoff_matrix[self.decision_auth][self.decision_sub4]
+
+            subordinate.payoff_matrix = {
+                'perform the Task':
+                    {
+                        'perform the Task': self.subordinate_cc(),
+                        'not perform the Task': self.subordinate_rc()
+                    },
+                'not perform the Task':
+                    {
+                        'perform the Task': Constants.exploit_payoff,
+                        'not perform the Task': Constants.subordinate_rr
+                    }
+                }
+            subordinate.payoff = subordinate.payoff_matrix[self.decision_sub4][self.decision_auth]
+
+        if self.offer == 2:
+            authority.payoff_matrix = {
+                'perform the Task':
+                    {
+                        'perform the Task': self.authority_cc(),
+                        'not perform the Task': Constants.authority_cr
+                    },
+                'not perform the Task':
+                    {
+                        'perform the Task': self.authority_rc(),
+                        'not perform the Task': Constants.authority_rr
+                    }
+            }
+            authority.payoff = authority.payoff_matrix[self.decision_auth][self.decision_sub2]
+
+            subordinate.payoff_matrix = {
+                'perform the Task':
+                    {
+                        'perform the Task': self.subordinate_cc(),
+                        'not perform the Task': self.subordinate_rc()
+                    },
+                'not perform the Task':
+                    {
+                        'perform the Task': Constants.exploit_payoff,
+                        'not perform the Task': Constants.subordinate_rr
+                    }
+                }
+            subordinate.payoff = subordinate.payoff_matrix[self.decision_sub2][self.decision_auth]
+
     pass
 
 
