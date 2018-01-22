@@ -1,0 +1,50 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}
+    Round {{ round }}
+{% endblock %}
+
+{% block content %}
+    {% if authority %}
+        <p> You have been allocated in the role of: <b>Authority</b></p>
+        <p>The computer will be playing as: <b>Subordinate</b> </p>
+    {% else %}
+        <p> You have been allocated in the role of: <b>Subordinate</b></p>
+        <p>The computer will be playing as: <b>Authority</b> </p>
+    {% endif %}
+
+    <p>Remember, the computer’s responses have been drawn from the decisions of some participants of a very similar game
+        to this one.</p>
+
+    <div>
+        <table class='table table-bordered text-center'
+           style='width: auto; margin: auto'>
+        <tr>
+            <th colspan=2 rowspan=2></th>
+            <th colspan=2>The Subordinate</th>
+        </tr>
+        <tr>
+            <th>Perform</th>
+            <th>Do not <br /> perform</th>
+        </tr>
+        <tr>
+            <th rowspan=2 style="vertical-align: middle">The Authority</th>
+            <th>Perform</th>
+            <td>5, 7</td>
+            <td>5, 10</td>
+        </tr>
+        <tr>
+            <th>Do not <br /> perform</th>
+            <td>10, 7</td>
+            <td>3, 5</td>
+        </tr>
+        </table>
+    </div>
+
+    <p> Please make your decision about whether to perform the task.
+    </p>
+
+    {% formfield player.mychoice label="I choose to:" %}
+    {% next_button %}
+{% endblock %}

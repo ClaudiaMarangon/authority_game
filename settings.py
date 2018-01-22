@@ -159,6 +159,22 @@ SESSION_CONFIGS = [
         ],
     },
     {
+        'name': 'practice_norm',
+        'display_name': "Practice Game Norm",
+        'num_demo_participants': 2,
+        'app_sequence': [
+            'practice_game_norm',
+        ],
+    },
+    {
+        'name': 'practice_control',
+        'display_name': "Practice Game Control",
+        'num_demo_participants': 2,
+        'app_sequence': [
+            'practice_game_control',
+        ],
+    },
+    {
         'name': 'final_payoff',
         'display_name': "Final Payoff",
         'num_demo_participants': 1,

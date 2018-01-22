@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}
+    Practice against computer
+{% endblock %}
+
+{% block content %}
+    <p>
+    To ensure all participants fully understand the game before the experiment begins, you will play a number of
+        practice rounds as both roles against a computer. <b>The computer’s responses have been drawn from the decisions of
+        a sample of participants who previously played a very similar game to this one</b>. On the screen, you will also be
+        able to see how many points you would have earned from your decisions if this were the real game. You will play
+        20 rounds as an <b>Authority</b> and 20 rounds as a <b>Subordinate</b>. You must complete all 40 practice rounds before you
+        can proceed with the experiment.
+    </p>
+    {% next_button %}
+{% endblock %}
+

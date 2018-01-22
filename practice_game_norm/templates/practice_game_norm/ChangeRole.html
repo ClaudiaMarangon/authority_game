@@ -1,0 +1,11 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}
+    Change Role
+{% endblock %}
+
+{% block content %}
+    <p>You will now switch roles and play as the {{ role }} for the remaining 20 rounds.</p>
+    {% next_button %}
+{% endblock %}
