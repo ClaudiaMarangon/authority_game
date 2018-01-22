@@ -1,0 +1,19 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}
+    Task Game against human subject
+{% endblock %}
+
+{% block content %}
+    <p>You have successfully completed the practice rounds. In the next part of the experiment, you will be paired with
+        other subjects and play the Task Game in which the payoffs will be worth real money.</p>
+    <p>You have been allocated the role of: {{ role }} </p>
+    <p> You will now play 20 rounds as the {{ role }}. For every round, you will be randomly paired with a different
+        {{ other_role }}, such that you will never play two rounds in a row with the same partner. After 20 rounds, you will
+        switch roles and play 20 more rounds as the {{ other_role }}. At the end of the experiment, you will be paid out
+        from your total earnings from the 40 rounds.</p>
+
+    {% next_button %}
+
+{% endblock %}

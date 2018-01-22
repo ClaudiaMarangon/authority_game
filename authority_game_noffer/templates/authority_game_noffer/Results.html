@@ -1,0 +1,20 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block content %}
+    <p>You chose to {{ player.decision }} while your partner chose to {{ other_dec }}</p>
+
+    <p>
+        As a result, you earned {{ player.payoff|floatformat:0 }} and your partner earned {{ other_pay }} tokens.
+    </p>
+    <p>
+        So far, you have earned {{ participant.vars.pay_nooffer }}.
+    </p>
+    {% next_button %}
+{% endblock %}
+
+

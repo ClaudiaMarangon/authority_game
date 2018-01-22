@@ -175,6 +175,14 @@ SESSION_CONFIGS = [
         ],
     },
     {
+        'name': 'authority_game_noffer',
+        'display_name': "Authority Game with no offer",
+        'num_demo_participants': 2,
+        'app_sequence': [
+            'authority_game_noffer',
+        ],
+    },
+    {
         'name': 'final_payoff',
         'display_name': "Final Payoff",
         'num_demo_participants': 1,
