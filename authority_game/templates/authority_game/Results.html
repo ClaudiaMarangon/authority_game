@@ -8,14 +8,19 @@
 {% block content %}
     <p>
         {% if same_choice %}
-            Both of you chose to {{ my_decision }}.
+            The Authority offered {{ group.offer }} and both of you chose to {{ my_decision }}.
         {% else %}
-            You chose to {{ my_decision }} and the other participant chose to {{ other_player_decision }}.
+            The Authority offered {{ group.offer }} and you chose to {{ my_decision }} while the other participant chose to {{ other_player_decision }}.
         {% endif %}
     </p>
 
     <p>
-            As a result, you earned {{ player.payoff|floatformat:0 }}.
+            As a result, you earned {{ player.payoff|floatformat:1 }}.
+    </p>
+
+
+    <p>
+        So far, you have earned {{ participant.vars.task_payoff|floatformat:1 }}.
     </p>
 
     {% next_button %}

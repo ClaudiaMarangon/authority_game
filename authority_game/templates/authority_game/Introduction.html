@@ -8,137 +8,31 @@
 {% block content %}
 
     <p>
-        You will play a simple game called the Task Game, which is a game for two players: an <b>Authority</b> and a
-        <b>Subordinate</b>. As the name suggests, in this game, there is a task to be performed. There is a payment
-        reward for both you and your partner if the task is performed, and either or both of you can perform it.
-        Each player decides independently whether to perform the task or not. However:
-        <ul>
-            <li>If <b>neither of you</b> perform the task, there is no reward</li>
-            <li>Performing the task requires effort, so whoever performs it will have to pay a cost.</li>
-        </ul>
-        Specifically:
-        <ul>
-            <li>If the Authority performs the task alone and the Subordinate does not perform the task, the <b>Authority
-                receives 5</b> and the <b>Subordinate receives 10</b> </li>
-            <li>If the Authority does not perform the task and the Subordinate performs the task alone, the <b>Authority
-                receives 10</b> and the <b>Subordinate receives 7</b> </li>
-            <li>If both players perform the task, the <b>Authority receives 5</b> and the <b>Subordinate receives 7</b> </li>
-            <li>If both players do not perform the task, the <b>Authority receives 3</b> and the <b>Subordinate receives
-                5</b>.</li>
-        </ul>
-        These payoffs are displayed in the table below, in which the amount to the left in each box is the payoff for
-        the Authority and the payoff to the right is for the Subordinate.
-    </p>
-
-    <table class='table table-bordered text-center'
-           style='width: auto; margin: auto'>
-        <tr>
-            <th colspan=2 rowspan=2></th>
-            <th colspan=2>The Subordinate</th>
-        </tr>
-        <tr>
-            <th>Perform</th>
-            <th>Do not <br /> perform</th>
-        </tr>
-        <tr>
-            <th rowspan=2 style="vertical-align: middle">The Authority</th>
-            <th>Perform</th>
-            <td>5, 7</td>
-            <td>5, 10</td>
-        </tr>
-        <tr>
-            <th>Do not <br /> perform</th>
-            <td>10, 7</td>
-            <td>3, 5</td>
-        </tr>
-    </table>
-
-    <p>
-        Each player will choose independently whether they want to perform the task or not, and then the computer will
-        match the answers and calculate the appropriate payoffs.
+        For the next stage of the experiment, you will again play the Task Game against other subjects. However, in this
+        game, the Authority has an extra decision to make. Specifically, in each round the Authority can promise a
+        <b>bonus payment</b>, to be paid by the Authority to the Subordinate <b>ONLY IF</b> the Subordinate chooses to perform
+        the task. The Authority can offer a bonus from 0 to 3.5 tokens, in increments of 0.5 tokens
+        (that is, the offer can be 0, 0.5, 1, 1.5, 2, 2.5, 3, or 3.5 tokens).
     </p>
 
     <p>
-        However, before the choice, the Authority can make one more decision. The Authority can promise a <b>bonus payment</b>,
-        to be paid by the Authority to the Subordinate <b>ONLY IF</b> the Subordinate chooses to perform the task.
-        The Authority can offer bonus payments of 2 or 4, or of nothing at all (0).
+        When you play as the Authority, you will choose how much of a bonus to offer to the Subordinate. On the other
+        hand, when you play as the Subordinate, you will be asked to make your decision about whether to perform the
+        task or not for <b>each of the possible bonus payments</b> that the Authority might offer you. Afterwards, the computer
+        will match your choices to your partner's choices to calculate the payoffs.
+
+        After each round, you will see your earnings and your cumulative earnings up to that round. As in the previous stage,
+        you will always be randomly paired with a different partner for each round. You will play 20 rounds as one role,
+        then switch and play 20 rounds as the other role.
     </p>
 
     <p>
-        If the Authority promises a bonus payment of 2, that means the payoffs for the game will look like this:
+        In either role, before you make your final decision, you will be able to click on each possible bonus offer to
+        see how the payoff table will change as a result. You can try this out below.
     </p>
 
-    <table class='table table-bordered text-center'
-           style='width: auto; margin: auto'>
-        <tr>
-            <th colspan=2 rowspan=2></th>
-            <th colspan=2>The Subordinate</th>
-        </tr>
-        <tr>
-            <th>Perform</th>
-            <th>Do not <br /> perform</th>
-        </tr>
-        <tr>
-            <th rowspan=2 style="vertical-align: middle">The Authority</th>
-            <th>Perform</th>
-            <td>3, 9</td>
-            <td>5, 10</td>
-        </tr>
-        <tr>
-            <th>Do not <br /> perform</th>
-            <td>8, 9</td>
-            <td>3, 5</td>
-        </tr>
-    </table>
-    <p>
-        And if the Authority promises a bonus payment of 4, the payoffs for the game will look like this:
-    </p>
+    {% include 'authority_game/InteractiveTabs.html' %}
 
-        <table class='table table-bordered text-center'
-           style='width: auto; margin: auto'>
-        <tr>
-            <th colspan=2 rowspan=2></th>
-            <th colspan=2>The Subordinate</th>
-        </tr>
-        <tr>
-            <th>Perform</th>
-            <th>Do not <br /> perform</th>
-        </tr>
-        <tr>
-            <th rowspan=2 style="vertical-align: middle">The Authority</th>
-            <th>Perform</th>
-            <td>1, 11</td>
-            <td>5, 10</td>
-        </tr>
-        <tr>
-            <th>Do not <br /> perform</th>
-            <td>6, 11</td>
-            <td>3, 5</td>
-        </tr>
-    </table>
-
-    <p>
-        Please answer the following comprehension questions before continuing to the game.
-        <ol>
-            <li>If the bonus payment is 0 and both players perform the task, how much will the Subordinate earn?<br />
-                {% formfield player.q1 %}
-            </li>
-            <li>
-                If the bonus payment is 2, the Subordinate performs the task and the Authority does not perform the task,
-                how much will the Subordinate earn? <br/>
-                {% formfield player.q2 %}
-            </li>
-            <li>If both players perform the task, the Subordinate always earns more money than the
-                Authority, no matter what the bonus is.
-                {% formfield player.q3 %}
-            </li>
-            <li>
-                If the bonus payment is 4, the Subordinate performs the task and the Authority does not perform the task,
-                how much will the Authority earn? <br />
-                {% formfield player.q4 %}
-            </li>
-        </ol>
-    </p>
 
 
     {% next_button %}

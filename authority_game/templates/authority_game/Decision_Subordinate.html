@@ -3,59 +3,33 @@
 
 
 {% block title %}
-        Perform the task or not? - Offer = 0
+        Perform the task or not?
 {% endblock %}
 
 {% block styles %}
-    <link rel="stylesheet" type="text/css" href="{% static 'global/matrix.css' %}" />
-
-    <style>
-        .highlight-row-on-hover:hover td {
-            background-color: #fcf8e3;
-        }
-        th {
-            text-align: center;
-        }
-    </style>
 
 {% endblock %}
 
 {% block content %}
+    <p>
+        {% include 'authority_game/Auth_payoffs.html' %}
+    </p>
+
     <p>
         Please make your decision about whether to perform the task or not for <i>each of the possible bonus payments</i>
         that the Authority might offer you. Afterwards, the computer will match your choices to your partner's choices to
         calculate the payoffs.
     </p>
     <p>
-        If the Authority chooses a bonus payment of 0:
+        You can see the payoff tables for each conditional offer amount by clicking through the tabs above.
     </p>
     <p>
-        <i>In each cell, the amount to the left is the payoff for
-            the subordinate (you) and to the right for the authority.</i>
+        {% for field in form %}
+            {% formfield field %}
+        {% endfor %}
     </p>
 
-    <div class="form-group required">
-        <table class="table table-bordered text-center" style="width: auto; margin: auto">
-            <tr>
-                <th colspan="2" rowspan="2"></th>
-                <th colspan="2">The Authority</th>
-            </tr>
-            <tr>
-                <th>Perform</th>
-                <th>Do not Perform</th>
-            </tr>
-            <tr class="highlight-row-on-hover">
-                <th rowspan="2" style="vertical-align: middle">The Subordinate</th>
-                <td><button name="decision_sub0" value="perform the Task" class="btn btn-primary btn-large">I will perform the task</button></td>
-                <td>7, 5 </td>
-                <td>7, 10 </td>
-            </tr>
-            <tr class="highlight-row-on-hover">
-                <td><button name="decision_sub0" value="not perform the Task" class="btn btn-primary btn-large">I will not perform the task</button></td>
-                <td>{{ Constants.exploit_payoff|floatformat:0 }}, {{ Constants.authority_cr|floatformat:0 }}</td>
-                <td>{{ Constants.subordinate_rr|floatformat:0 }}, {{ Constants.authority_rr|floatformat:0 }}</td>
-            </tr>
-        </table>
-    </div>
+
+    {% next_button %}
 
 {% endblock %}

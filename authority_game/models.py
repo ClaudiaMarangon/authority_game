@@ -41,26 +41,59 @@ class Group(BaseGroup):
 
     offer = models.CurrencyField(
         initial=0,
-        choices=[0, 2, 4],
+        choices=[0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5],
         widget=widgets.RadioSelect
     )
     decision_auth = models.CharField(
         choices=['perform the Task', 'not perform the Task'],
-        widget=widgets.RadioSelect
+        widget=widgets.RadioSelect,
     )
 
     decision_sub0 = models.CharField(
         choices=['perform the Task', 'not perform the Task'],
+        verbose_name='If the Authority offered you 0 tokens you would:',
+        widget=widgets.RadioSelect
+    )
+
+    decision_sub0_5 = models.CharField(
+        choices=['perform the Task', 'not perform the Task'],
+        verbose_name='If the Authority offered you 0.5 tokens you would:',
+        widget=widgets.RadioSelect
+    )
+
+    decision_sub1 = models.CharField(
+        choices=['perform the Task', 'not perform the Task'],
+        verbose_name='If the Authority offered you 1 token you would:',
+        widget=widgets.RadioSelect
+    )
+
+    decision_sub1_5 = models.CharField(
+        choices=['perform the Task', 'not perform the Task'],
+        verbose_name='If the Authority offered you 1.5 tokens you would:',
         widget=widgets.RadioSelect
     )
 
     decision_sub2 = models.CharField(
         choices=['perform the Task', 'not perform the Task'],
+        verbose_name='If the Authority offered you 2 tokens you would:',
         widget=widgets.RadioSelect
     )
 
-    decision_sub4 = models.CharField(
+    decision_sub2_5 = models.CharField(
         choices=['perform the Task', 'not perform the Task'],
+        verbose_name='If the Authority offered you 2.5 tokens you would:',
+        widget=widgets.RadioSelect
+    )
+
+    decision_sub3 = models.CharField(
+        choices=['perform the Task', 'not perform the Task'],
+        verbose_name='If the Authority offered you 3 tokens you would:',
+        widget=widgets.RadioSelect
+    )
+
+    decision_sub3_5 = models.CharField(
+        choices=['perform the Task', 'not perform the Task'],
+        verbose_name='If the Authority offered you 3.5 tokens you would:',
         widget=widgets.RadioSelect
     )
 
@@ -79,114 +112,275 @@ class Group(BaseGroup):
     def set_payoff(self):
         authority = self.get_player_by_id(1)
         subordinate = self.get_player_by_id(2)
-        if self.offer == 0:
-            authority.payoff_matrix = {
-                'perform the Task':
-                    {
-                        'perform the Task': self.authority_cc(),
-                        'not perform the Task': Constants.authority_cr
-                    },
-                'not perform the Task':
-                    {
-                        'perform the Task': self.authority_rc(),
-                        'not perform the Task': Constants.authority_rr
-                    }
-            }
-            authority.payoff = authority.payoff_matrix[self.decision_auth][self.decision_sub0]
 
-            subordinate.payoff_matrix = {
-                'perform the Task':
-                    {
-                        'perform the Task': self.subordinate_cc(),
-                        'not perform the Task': self.subordinate_rc()
-                    },
-                'not perform the Task':
-                    {
-                        'perform the Task': Constants.exploit_payoff,
-                        'not perform the Task': Constants.subordinate_rr
-                    }
-                }
-            subordinate.payoff = subordinate.payoff_matrix[self.decision_sub0][self.decision_auth]
+        for p in self.get_players():
+            if self.round_number == 1:
+                p.participant.vars['task_payoff'] = 0
 
-        if self.offer == 4:
-            authority.payoff_matrix = {
-                'perform the Task':
-                    {
-                        'perform the Task': self.authority_cc(),
-                        'not perform the Task': Constants.authority_cr
-                    },
-                'not perform the Task':
-                    {
-                        'perform the Task': self.authority_rc(),
-                        'not perform the Task': Constants.authority_rr
+            if self.offer == 0:
+                if p.role() == 'Authority':
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.authority_cc(),
+                                'not perform the Task': Constants.authority_cr
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': self.authority_rc(),
+                                'not perform the Task': Constants.authority_rr
+                            }
                     }
-            }
-            authority.payoff = authority.payoff_matrix[self.decision_auth][self.decision_sub4]
+                    p.payoff = payoff_matrix[self.decision_auth][self.decision_sub0]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+                else:
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.subordinate_cc(),
+                                'not perform the Task': self.subordinate_rc()
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': Constants.exploit_payoff,
+                                'not perform the Task': Constants.subordinate_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_sub0][self.decision_auth]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
 
-            subordinate.payoff_matrix = {
-                'perform the Task':
-                    {
-                        'perform the Task': self.subordinate_cc(),
-                        'not perform the Task': self.subordinate_rc()
-                    },
-                'not perform the Task':
-                    {
-                        'perform the Task': Constants.exploit_payoff,
-                        'not perform the Task': Constants.subordinate_rr
+            if self.offer == 0.5:
+                if p.role() == 'Authority':
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.authority_cc(),
+                                'not perform the Task': Constants.authority_cr
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': self.authority_rc(),
+                                'not perform the Task': Constants.authority_rr
+                            }
                     }
-                }
-            subordinate.payoff = subordinate.payoff_matrix[self.decision_sub4][self.decision_auth]
+                    p.payoff = payoff_matrix[self.decision_auth][self.decision_sub0_5]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+                else:
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.subordinate_cc(),
+                                'not perform the Task': self.subordinate_rc()
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': Constants.exploit_payoff,
+                                'not perform the Task': Constants.subordinate_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_sub0_5][self.decision_auth]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
 
-        if self.offer == 2:
-            authority.payoff_matrix = {
-                'perform the Task':
-                    {
-                        'perform the Task': self.authority_cc(),
-                        'not perform the Task': Constants.authority_cr
-                    },
-                'not perform the Task':
-                    {
-                        'perform the Task': self.authority_rc(),
-                        'not perform the Task': Constants.authority_rr
+            if self.offer == 1:
+                if p.role() == 'Authority':
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.authority_cc(),
+                                'not perform the Task': Constants.authority_cr
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': self.authority_rc(),
+                                'not perform the Task': Constants.authority_rr
+                            }
                     }
-            }
-            authority.payoff = authority.payoff_matrix[self.decision_auth][self.decision_sub2]
+                    p.payoff = payoff_matrix[self.decision_auth][self.decision_sub1]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+                else:
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.subordinate_cc(),
+                                'not perform the Task': self.subordinate_rc()
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': Constants.exploit_payoff,
+                                'not perform the Task': Constants.subordinate_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_sub1][self.decision_auth]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
 
-            subordinate.payoff_matrix = {
-                'perform the Task':
-                    {
-                        'perform the Task': self.subordinate_cc(),
-                        'not perform the Task': self.subordinate_rc()
-                    },
-                'not perform the Task':
-                    {
-                        'perform the Task': Constants.exploit_payoff,
-                        'not perform the Task': Constants.subordinate_rr
+            if self.offer == 1.5:
+                if p.role() == 'Authority':
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.authority_cc(),
+                                'not perform the Task': Constants.authority_cr
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': self.authority_rc(),
+                                'not perform the Task': Constants.authority_rr
+                            }
                     }
-                }
-            subordinate.payoff = subordinate.payoff_matrix[self.decision_sub2][self.decision_auth]
+                    p.payoff = payoff_matrix[self.decision_auth][self.decision_sub1_5]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+                else:
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.subordinate_cc(),
+                                'not perform the Task': self.subordinate_rc()
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': Constants.exploit_payoff,
+                                'not perform the Task': Constants.subordinate_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_sub1_5][self.decision_auth]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+
+            if self.offer == 2:
+                if p.role() == 'Authority':
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.authority_cc(),
+                                'not perform the Task': Constants.authority_cr
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': self.authority_rc(),
+                                'not perform the Task': Constants.authority_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_auth][self.decision_sub2]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+                else:
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.subordinate_cc(),
+                                'not perform the Task': self.subordinate_rc()
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': Constants.exploit_payoff,
+                                'not perform the Task': Constants.subordinate_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_sub2][self.decision_auth]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+
+            if self.offer == 2.5:
+                if p.role() == 'Authority':
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.authority_cc(),
+                                'not perform the Task': Constants.authority_cr
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': self.authority_rc(),
+                                'not perform the Task': Constants.authority_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_auth][self.decision_sub2_5]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+                else:
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.subordinate_cc(),
+                                'not perform the Task': self.subordinate_rc()
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': Constants.exploit_payoff,
+                                'not perform the Task': Constants.subordinate_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_sub2_5][self.decision_auth]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+
+            if self.offer == 3:
+                if p.role() == 'Authority':
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.authority_cc(),
+                                'not perform the Task': Constants.authority_cr
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': self.authority_rc(),
+                                'not perform the Task': Constants.authority_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_auth][self.decision_sub3_5]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+                else:
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.subordinate_cc(),
+                                'not perform the Task': self.subordinate_rc()
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': Constants.exploit_payoff,
+                                'not perform the Task': Constants.subordinate_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_sub3_5][self.decision_auth]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+
+            if self.offer == 3.5:
+                if p.role() == 'Authority':
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.authority_cc(),
+                                'not perform the Task': Constants.authority_cr
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': self.authority_rc(),
+                                'not perform the Task': Constants.authority_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_auth][self.decision_sub3_5]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
+                else:
+                    payoff_matrix = {
+                        'perform the Task':
+                            {
+                                'perform the Task': self.subordinate_cc(),
+                                'not perform the Task': self.subordinate_rc()
+                            },
+                        'not perform the Task':
+                            {
+                                'perform the Task': Constants.exploit_payoff,
+                                'not perform the Task': Constants.subordinate_rr
+                            }
+                    }
+                    p.payoff = payoff_matrix[self.decision_sub3_5][self.decision_auth]
+                    p.participant.vars['task_payoff'] = p.participant.vars['task_payoff'] + p.payoff
 
     pass
 
 
 class Player(BasePlayer):
 
-    q1 = models.PositiveIntegerField(
-        verbose_name="Please, enter your answer below"
-    )
-    q2 = models.PositiveIntegerField(
-        verbose_name="Please, enter your answer below"
-    )
-    q3 = models.BooleanField(
-        widget=widgets.RadioSelect,
-        choices=[
-            [True, 'True'],
-            [False, 'False'],
-        ],
-        verbose_name="True or False?"
-    )
-    q4 = models.PositiveIntegerField(
-        verbose_name="Please, enter your answer below"
+    offer_try = models.FloatField(
+        choices = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5],
+        widget = widgets.RadioSelect
     )
 
     decision = models.CharField(
@@ -195,16 +389,28 @@ class Player(BasePlayer):
     )
 
     def role(self):
-        if self.id_in_group == 1:
-            return 'Authority'
-        if self.id_in_group == 2:
-            return 'Subordinate'
+        if self.round_number<=20:
+            if self.id_in_group == 1:
+                return 'Authority'
+            else:
+                return 'Subordinate'
+        else:
+            if self.id_in_group == 2:
+                return 'Authority'
+            else:
+                return 'Subordinate'
 
     def other_role(self):
-        if self.id_in_group == 1:
-            return 'Subordinate'
-        if self.id_in_group == 2:
-            return 'Authority'
+        if self.round_number <= 20:
+            if self.id_in_group == 2:
+                return 'Authority'
+            else:
+                return 'Subordinate'
+        else:
+            if self.id_in_group == 1:
+                return 'Authority'
+            else:
+                return 'Subordinate'
 
     def other_player(self):
         return self.get_others_in_group()[0]

@@ -10,21 +10,6 @@ class Introduction(Page):
     def is_displayed(self):
         return self.round_number == 1
 
-    form_model = models.Player
-    form_fields = ['q1', 'q2', 'q3', 'q4']
-
-    def error_message(self, values):
-        if not (values["q1"] == Constants.answ1):
-            return 'You got question 1 wrong!'
-
-        if not (values["q2"] == Constants.answ2):
-            return 'You got question 2 wrong!'
-
-        if not (values["q3"]):
-            return 'You got question 3 wrong!'
-
-        if not (values["q4"] == Constants.answ4):
-            return 'You got question 4 wrong!'
     pass
 
 class Description(Page):
@@ -55,31 +40,13 @@ class Decision_Subordinate(Page):
     def is_displayed(self):
         return self.player.role() == 'Subordinate'
     form_model = models.Group
-    form_fields = ['decision_sub0']
+    form_fields = ['decision_sub0', 'decision_sub0_5','decision_sub1','decision_sub1_5','decision_sub2','decision_sub2_5', 'decision_sub3', 'decision_sub3_5']
     pass
 
-
-class Decision_Subordinate_2(Page):
-
-    def is_displayed(self):
-        return self.player.role() == 'Subordinate'
-    form_model = models.Group
-    form_fields = ['decision_sub2']
-    pass
-
-
-class Decision_Subordinate_4(Page):
-
-    def is_displayed(self):
-        return self.player.role() == 'Subordinate'
-    form_model = models.Group
-    form_fields = ['decision_sub4']
-    pass
 
 class ResultsWaitPage(WaitPage):
     def after_all_players_arrive(self):
         self.group.set_payoff()
-
     pass
 
 class Results(Page):
@@ -102,6 +69,30 @@ class Results(Page):
                 }
 
         if self.player.role() == 'Authority':
+            if self.group.offer == 0.5:
+                return {
+                    'my_decision': self.group.decision_auth,
+                    'other_player_decision': self.group.decision_sub0_5,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub0_5,
+                }
+
+        if self.player.role() == 'Authority':
+            if self.group.offer == 1:
+                return {
+                    'my_decision': self.group.decision_auth,
+                    'other_player_decision': self.group.decision_sub1,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub1,
+                }
+
+        if self.player.role() == 'Authority':
+            if self.group.offer == 1.5:
+                return {
+                    'my_decision': self.group.decision_auth,
+                    'other_player_decision': self.group.decision_sub1_5,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub1_5,
+                }
+
+        if self.player.role() == 'Authority':
             if self.group.offer == 2:
                 return {
                     'my_decision': self.group.decision_auth,
@@ -110,11 +101,27 @@ class Results(Page):
                 }
 
         if self.player.role() == 'Authority':
-            if self.group.offer == 4:
+            if self.group.offer == 2.5:
                 return {
                     'my_decision': self.group.decision_auth,
-                    'other_player_decision': self.group.decision_sub4,
-                    'same_choice': self.group.decision_auth == self.group.decision_sub4,
+                    'other_player_decision': self.group.decision_sub2_5,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub2_5,
+                }
+
+        if self.player.role() == 'Authority':
+            if self.group.offer == 3:
+                return {
+                    'my_decision': self.group.decision_auth,
+                    'other_player_decision': self.group.decision_sub3,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub3,
+                }
+
+        if self.player.role() == 'Authority':
+            if self.group.offer == 3.5:
+                return {
+                    'my_decision': self.group.decision_auth,
+                    'other_player_decision': self.group.decision_sub3_5,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub3_5,
                 }
 
         if self.player.role() == 'Subordinate':
@@ -126,6 +133,30 @@ class Results(Page):
                 }
 
         if self.player.role() == 'Subordinate':
+            if self.group.offer == 0.5:
+                return {
+                    'my_decision': self.group.decision_sub0_5,
+                    'other_player_decision': self.group.decision_auth,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub0_5,
+                }
+
+        if self.player.role() == 'Subordinate':
+            if self.group.offer == 1:
+                return {
+                    'my_decision': self.group.decision_sub1,
+                    'other_player_decision': self.group.decision_auth,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub1,
+                }
+
+        if self.player.role() == 'Subordinate':
+            if self.group.offer == 1.5:
+                return {
+                    'my_decision': self.group.decision_sub1_5,
+                    'other_player_decision': self.group.decision_auth,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub1_5,
+                }
+
+        if self.player.role() == 'Subordinate':
             if self.group.offer == 2:
                 return {
                     'my_decision': self.group.decision_sub2,
@@ -134,11 +165,27 @@ class Results(Page):
                 }
 
         if self.player.role() == 'Subordinate':
-            if self.group.offer == 4:
+            if self.group.offer == 2.5:
                 return {
-                    'my_decision': self.group.decision_sub4,
+                    'my_decision': self.group.decision_sub2_5,
                     'other_player_decision': self.group.decision_auth,
-                    'same_choice': self.group.decision_auth == self.group.decision_sub4,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub2_5,
+                }
+
+        if self.player.role() == 'Subordinate':
+            if self.group.offer == 3:
+                return {
+                    'my_decision': self.group.decision_sub3,
+                    'other_player_decision': self.group.decision_auth,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub3,
+                }
+
+        if self.player.role() == 'Subordinate':
+            if self.group.offer == 3.5:
+                return {
+                    'my_decision': self.group.decision_sub3_5,
+                    'other_player_decision': self.group.decision_auth,
+                    'same_choice': self.group.decision_auth == self.group.decision_sub3_5,
                 }
 
 
@@ -153,16 +200,23 @@ class Finale_Page(Page):
         return self.round_number == Constants.num_rounds
 
 
+class ChangeRole(Page):
+    def is_displayed(self):
+        return self.round_number==21
 
+    def vars_for_template(self):
+        return {
+            'role': self.player.role()
+        }
+    pass
 
 page_sequence = [
+    ChangeRole,
     Introduction,
     Description,
     Offer,
     Decision_Authority,
     Decision_Subordinate,
-    Decision_Subordinate_2,
-    Decision_Subordinate_4,
     ResultsWaitPage,
     Results,
     ChangeOfPartner,
