@@ -3,7 +3,7 @@ from . import models
 from ._builtin import Page, WaitPage
 from .models import Constants
 
-class Payment_Info(Page):
+class Payement_Info(Page):
     def is_displayed(self):
         return self.round_number==1
 
@@ -68,7 +68,7 @@ class ChangeRole(Page):
 page_sequence = [
     ChangeRole,
     Introduction,
-    Payment_Info,
+    Payement_Info,
     VSComputer,
     Authority,
     Subordinte,

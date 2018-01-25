@@ -3,6 +3,13 @@ from . import models
 from ._builtin import Page, WaitPage
 from .models import Constants
 
+class Payement_Info(Page):
+    def is_displayed(self):
+        return self.round_number==1
+
+    form_model = models.Player
+    form_fields = ['name', 'surname', 'mail']
+    pass
 
 class Introduction(Page):
     pass
@@ -61,6 +68,7 @@ class ChangeRole(Page):
 page_sequence = [
     ChangeRole,
     Introduction,
+    Payement_Info,
     VSComputer,
     Authority,
     Subordinte,
