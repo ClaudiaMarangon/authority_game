@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3828ace-4825-4d82-877b-e0412869bdef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire/models.py" afterPath="$PROJECT_DIR$/questionnaire/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html" afterPath="$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire/views.py" afterPath="$PROJECT_DIR$/questionnaire/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/authority_game/models.py" afterPath="$PROJECT_DIR$/authority_game/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,11 +84,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/money_request/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
               <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authority_game/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="384" column="0" lean-forward="true" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+              <folding>
+                <element signature="e#3624#5207#0" expanded="false" />
+                <element signature="e#5259#6846#0" expanded="false" />
+                <element signature="e#6896#8479#0" expanded="false" />
+                <element signature="e#8531#10118#0" expanded="false" />
+                <element signature="e#10168#11751#0" expanded="false" />
+                <element signature="e#11803#13390#0" expanded="false" />
+                <element signature="e#13440#15027#0" expanded="false" />
+                <element signature="e#15079#16666#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/circle_task/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,7 +171,6 @@
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Description.html" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Authority.html" />
         <option value="$PROJECT_DIR$/authority_game/views.py" />
-        <option value="$PROJECT_DIR$/authority_game/models.py" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Results.html" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Finale_Page.html" />
         <option value="$PROJECT_DIR$/practice_game_control/templates/practice_game_control/Results.html" />
@@ -159,10 +184,11 @@
         <option value="$PROJECT_DIR$/questionnaire/templates/questionnaire/Survey2.html" />
         <option value="$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html" />
         <option value="$PROJECT_DIR$/money_request/views.py" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/money_request/templates/money_request/Instructions.html" />
         <option value="$PROJECT_DIR$/money_request/templates/money_request/Results.html" />
         <option value="$PROJECT_DIR$/money_request/models.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/authority_game/models.py" />
       </list>
     </option>
   </component>
@@ -426,14 +452,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/Results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/ChangeRole.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -757,16 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/circle_task/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/circle_task/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -783,31 +791,6 @@
           <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="e#0#51#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="189" column="26" lean-forward="false" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authority_game/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="414" column="0" lean-forward="false" selection-start-line="414" selection-start-column="0" selection-end-line="415" selection-end-column="44" />
-          <folding>
-            <element signature="e#3624#5207#0" expanded="false" />
-            <element signature="e#5259#6846#0" expanded="false" />
-            <element signature="e#6896#8479#0" expanded="false" />
-            <element signature="e#8531#10118#0" expanded="false" />
-            <element signature="e#10168#11751#0" expanded="false" />
-            <element signature="e#11803#13390#0" expanded="false" />
-            <element signature="e#13440#15027#0" expanded="false" />
-            <element signature="e#15079#16666#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -843,6 +826,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authority_game/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="384" column="0" lean-forward="true" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+          <folding>
+            <element signature="e#3624#5207#0" expanded="false" />
+            <element signature="e#5259#6846#0" expanded="false" />
+            <element signature="e#6896#8479#0" expanded="false" />
+            <element signature="e#8531#10118#0" expanded="false" />
+            <element signature="e#10168#11751#0" expanded="false" />
+            <element signature="e#11803#13390#0" expanded="false" />
+            <element signature="e#13440#15027#0" expanded="false" />
+            <element signature="e#15079#16666#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_task/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

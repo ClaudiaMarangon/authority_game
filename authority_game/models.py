@@ -383,11 +383,6 @@ class Player(BasePlayer):
         widget = widgets.RadioSelect
     )
 
-    decision = models.CharField(
-        choices=['perform the Task', 'not perform the Task'],
-        widget=widgets.RadioSelect
-    )
-
     def role(self):
         if self.round_number<=20:
             if self.id_in_group == 1:
