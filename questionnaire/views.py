@@ -16,7 +16,7 @@ class Survey2(Page):
 
 class Comments(Page):
     form_model = models.Player
-    form_fields = ['process', 'comments']
+    form_fields = ['burglar','process', 'comments']
     pass
 
 

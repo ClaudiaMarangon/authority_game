@@ -183,6 +183,14 @@ SESSION_CONFIGS = [
         ],
     },
     {
+        'name': 'money_request',
+        'display_name': "Money Request Game",
+        'num_demo_participants': 2,
+        'app_sequence': [
+            'money_request',
+        ],
+    },
+    {
         'name': 'final_payoff',
         'display_name': "Final Payoff",
         'num_demo_participants': 1,

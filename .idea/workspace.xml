@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a3828ace-4825-4d82-877b-e0412869bdef" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice_game_control/views.py" afterPath="$PROJECT_DIR$/practice_game_control/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire/models.py" afterPath="$PROJECT_DIR$/questionnaire/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html" afterPath="$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/questionnaire/views.py" afterPath="$PROJECT_DIR$/questionnaire/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,91 +25,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authority_game/views.py">
+      <file leaf-file-name="Survey2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/questionnaire/templates/questionnaire/Survey2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3135">
-              <caret line="214" column="17" lean-forward="false" selection-start-line="214" selection-start-column="17" selection-end-line="214" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Results.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Finale_Page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Finale_Page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Introduction.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_game_control/templates/practice_game_control/Introduction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Results.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_game_control/templates/practice_game_control/Results.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Payement_Info.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_game_control/templates/practice_game_control/Payement_Info.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+            <state relative-caret-position="195">
+              <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/practice_game_control/models.py">
+        <entry file="file://$PROJECT_DIR$/questionnaire/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="124" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="213" column="53" lean-forward="false" selection-start-line="213" selection-start-column="53" selection-end-line="213" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/practice_game_control/views.py">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/questionnaire/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-558">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="181" lean-forward="false" selection-start-line="12" selection-start-column="181" selection-end-line="12" selection-end-column="181" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Comments.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Decision_Subordinate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate.html">
+      <file leaf-file-name="Instructions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/money_request/templates/money_request/Instructions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Results.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/money_request/templates/money_request/Results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/money_request/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -126,12 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/authoritygame/Decision_Subordinate_4.html" />
-        <option value="$PROJECT_DIR$/authoritygame/Finale_Page.html" />
-        <option value="$PROJECT_DIR$/authoritygame/Offer.html" />
-        <option value="$PROJECT_DIR$/authoritygame/Results.html" />
-        <option value="$PROJECT_DIR$/authoritygame/Circle Task/Choice.html" />
-        <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_Circle graph2.html" />
         <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_Results.html" />
         <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_models.py" />
         <option value="$PROJECT_DIR$/authoritygame/Circle Task/CT_views.py" />
@@ -143,8 +123,6 @@
         <option value="$PROJECT_DIR$/authoritygame/views.py" />
         <option value="$PROJECT_DIR$/authority_game/tests.py" />
         <option value="$PROJECT_DIR$/authoritygame/tests.py" />
-        <option value="$PROJECT_DIR$/questionnaire/views.py" />
-        <option value="$PROJECT_DIR$/questionnaire/models.py" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_2.html" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Decision_Subordinate_4.html" />
         <option value="$PROJECT_DIR$/circle_task/models.py" />
@@ -154,13 +132,10 @@
         <option value="$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/Authority.html" />
         <option value="$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/Subordinte.html" />
         <option value="$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/Results.html" />
-        <option value="$PROJECT_DIR$/practice_game_norm/models.py" />
-        <option value="$PROJECT_DIR$/practice_game_norm/views.py" />
         <option value="$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/ChangeRole.html" />
         <option value="$PROJECT_DIR$/authority_game_noffer/templates/authority_game_noffer/Introduction.html" />
         <option value="$PROJECT_DIR$/authority_game_noffer/templates/authority_game_noffer/Decision.html" />
         <option value="$PROJECT_DIR$/authority_game_noffer/templates/authority_game_noffer/Results.html" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/authority_game_noffer/views.py" />
         <option value="$PROJECT_DIR$/authority_game_noffer/models.py" />
         <option value="$PROJECT_DIR$/authority_game/templates/authority_game/Introduction.html" />
@@ -177,6 +152,17 @@
         <option value="$PROJECT_DIR$/practice_game_control/models.py" />
         <option value="$PROJECT_DIR$/practice_game_control/templates/practice_game_control/Payement_Info.html" />
         <option value="$PROJECT_DIR$/practice_game_control/views.py" />
+        <option value="$PROJECT_DIR$/practice_game_norm/views.py" />
+        <option value="$PROJECT_DIR$/practice_game_norm/models.py" />
+        <option value="$PROJECT_DIR$/questionnaire/models.py" />
+        <option value="$PROJECT_DIR$/questionnaire/views.py" />
+        <option value="$PROJECT_DIR$/questionnaire/templates/questionnaire/Survey2.html" />
+        <option value="$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html" />
+        <option value="$PROJECT_DIR$/money_request/views.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/money_request/templates/money_request/Instructions.html" />
+        <option value="$PROJECT_DIR$/money_request/templates/money_request/Results.html" />
+        <option value="$PROJECT_DIR$/money_request/models.py" />
       </list>
     </option>
   </component>
@@ -187,9 +173,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="133" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="width" value="1079" />
+    <option name="height" value="763" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -229,20 +216,38 @@
             <path>
               <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_game_control" type="462c0819:PsiDirectoryNode" />
+              <item name="circle_task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_game_control" type="462c0819:PsiDirectoryNode" />
+              <item name="money_request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="money_request" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="money_request" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="money_request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
+              <item name="money_request" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Authority Game" type="b2602c69:ProjectViewProjectNode" />
               <item name="Authority Game" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_game_control" type="462c0819:PsiDirectoryNode" />
+              <item name="money_request" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="practice_game_control" type="462c0819:PsiDirectoryNode" />
+              <item name="money_request" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,14 +264,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm" />
       <recent name="$PROJECT_DIR$/circle_task/templates/circle_task" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/money_request/static/money_request" />
+      <recent name="$PROJECT_DIR$/practice_game_norm/templates" />
       <recent name="$PROJECT_DIR$/authority_game/templates/authority_game" />
       <recent name="$PROJECT_DIR$/authority_game_noffer/templates/authority_game_noffer" />
       <recent name="$PROJECT_DIR$/practice_game_control/templates/practice_game_control" />
-      <recent name="$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm" />
-      <recent name="$PROJECT_DIR$/authoritygame" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -415,108 +421,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/circle_task/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/circle_task/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/questionnaire/templates/questionnaire/Survey1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final_payoff/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final_payoff/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final_payoff/templates/final_payoff/MyPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/VSComputer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/Introduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_norm/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/Subordinte.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/Authority.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/final_payoff/templates/final_payoff/Results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/Results.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -557,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_norm/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice_game_control/templates/practice_game_control/Authority.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -573,14 +475,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/authority_game_noffer/templates/authority_game_noffer/MyPage.html" />
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="181" column="34" lean-forward="false" selection-start-line="181" selection-start-column="34" selection-end-line="181" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/authority_game_noffer/templates/authority_game_noffer/Introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -593,14 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
           <caret line="10" column="73" lean-forward="false" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_norm/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="120" column="5" lean-forward="false" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -760,7 +646,7 @@
     <entry file="file://$PROJECT_DIR$/practice_game_control/templates/practice_game_control/Introduction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-62">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -781,10 +667,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/practice_game_control/templates/practice_game_control/Payement_Info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_game_norm/templates/practice_game_norm/Payement_Info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_game_control/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_game_norm/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="70" column="18" lean-forward="false" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_game_control/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="124" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice_game_norm/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionnaire/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="213" column="53" lean-forward="false" selection-start-line="213" selection-start-column="53" selection-end-line="213" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionnaire/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="181" lean-forward="false" selection-start-line="12" selection-start-column="181" selection-end-line="12" selection-end-column="181" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionnaire/templates/questionnaire/Survey2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionnaire/templates/questionnaire/Comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/money_request/templates/money_request/MyPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_task/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/circle_task/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/money_request/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#51#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="189" column="26" lean-forward="false" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/authority_game/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="378" column="25" lean-forward="true" selection-start-line="378" selection-start-column="25" selection-end-line="378" selection-end-column="25" />
+        <state relative-caret-position="357">
+          <caret line="414" column="0" lean-forward="false" selection-start-line="414" selection-start-column="0" selection-end-line="415" selection-end-column="44" />
           <folding>
             <element signature="e#3624#5207#0" expanded="false" />
             <element signature="e#5259#6846#0" expanded="false" />
@@ -798,26 +812,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_control/models.py">
+    <entry file="file://$PROJECT_DIR$/money_request/static/money_request/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/money_request/templates/money_request/Instructions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="124" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_control/templates/practice_game_control/Payement_Info.html">
+    <entry file="file://$PROJECT_DIR$/money_request/templates/money_request/Results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice_game_control/views.py">
+    <entry file="file://$PROJECT_DIR$/money_request/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-558">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="268">
+          <caret line="27" column="50" lean-forward="false" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
           <folding />
         </state>
       </provider>

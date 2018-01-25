@@ -209,4 +209,8 @@ class Player(BasePlayer):
         blank = True,
         max_length=500
     )
+
+    burglar = models.TextField(
+        verbose_name = 'Why did the burglar do that?'
+    )
     pass
