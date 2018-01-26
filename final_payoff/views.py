@@ -5,7 +5,8 @@ from .models import Constants
 
 class MyPage(Page):
     def before_next_page(self):
-        return self.player.set_payoff()
+        return {self.player.set_payoff(),  self.group.set_val()}
+
     pass
 
 class Results(Page):

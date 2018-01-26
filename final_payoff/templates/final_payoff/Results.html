@@ -8,12 +8,12 @@
 {% block content %}
     <p>You reached the end of the game. </p>
     <p>
-        This are all the payoffs from each game you played:
+        These are all the payoffs from each game you played:
         <ul>
             <li>Total Payoff from the Task Game with no offer: {{ player.payoff_simple_task }}</li>
             <li>Total Payoff from the Task Game with offer from the Auhtority: {{ player.payoff_task }}</li>
-            <li>Payoff from the Money Request Game: {{ player.money_pay }}</li>
-            <li>Payoff from the Circle Task: {{ player.circlet_pay }}</li>
+            <li>Payoff from the Money Request Game: {{ player.payoff_money }}</li>
+            <li>Payoff from the Circle Task: {{ player.payoff_circle }}</li>
             <li>Total Payoff: {{ player.payoff }}</li>
         </ul>
     </p>

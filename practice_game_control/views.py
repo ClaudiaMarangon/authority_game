@@ -12,11 +12,17 @@ class Payement_Info(Page):
     pass
 
 class Introduction(Page):
+    def is_displayed(self):
+        return self.round_number==1
+
     pass
 
 
 class VSComputer(Page):
-        pass
+    def is_displayed(self):
+        return self.round_number == 1
+
+    pass
 
 class Authority(Page):
     def is_displayed(self):

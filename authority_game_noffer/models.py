@@ -23,14 +23,16 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
+
     pass
 
 
 class Group(BaseGroup):
 
     def set_payoff(self):
+
         for p in self.get_players():
-            if self.round_number==1:
+            if self.round_number == 1:
                 p.participant.vars['pay_nooffer'] = 0
 
             if p.role()=='Authority':
@@ -56,10 +58,10 @@ class Group(BaseGroup):
                             'not perform the Task': Constants.subordinate_c
                         },
                     'not perform the Task':
-                    {
-                        'perform the Task': Constants.exploit_payoff,
-                        'not perform the Task': Constants.subordinate_rr
-                    }
+                        {
+                            'perform the Task': Constants.exploit_payoff,
+                            'not perform the Task': Constants.subordinate_rr
+                        }
                 }
                 p.payoff = payoff_matrix[p.decision][p.other_player().decision]
                 p.participant.vars['pay_nooffer'] = p.participant.vars['pay_nooffer'] + p.payoff
