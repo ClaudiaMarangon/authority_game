@@ -7,11 +7,16 @@
 
 {% block content %}
     <p>You reached the end of the game. </p>
-    <p>The payoff you earned from the five randomly chosen rounds of the Task Game is  {{ participant.vars.task_payoff }}</p>
-    <p>While the payoff you earned from the Circle Task is {{ participant.vars.circlet_payoff }}</p>
-
-    <p>Therefore, your total payoff is <b>{{ participant.vars.final_payoff }}</b></p>
-
+    <p>
+        This are all the payoffs from each game you played:
+        <ul>
+            <li>Total Payoff from the Task Game with no offer: {{ player.payoff_simple_task }}</li>
+            <li>Total Payoff from the Task Game with offer from the Auhtority: {{ player.payoff_task }}</li>
+            <li>Payoff from the Money Request Game: {{ player.money_pay }}</li>
+            <li>Payoff from the Circle Task: {{ player.circlet_pay }}</li>
+            <li>Total Payoff: {{ player.payoff }}</li>
+        </ul>
+    </p>
     {% next_button %}
 {% endblock %}
 
