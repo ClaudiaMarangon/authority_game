@@ -1,22 +1,38 @@
 <head>
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src= "../../../Circle%20graph/jquery.csv.min.js" ></script>
 	<script type="text/javascript" >
 
-        function offerclick() {
-            var off = document.getElementById("myoff").value;
+
+    $(document).ready(function () {
+        $("button").click(function () {
+            var off = $(this).getElementById("myoff").value;
             var pay_acc = 5 - off;
             var pay_arc = 10 - off;
             var pay_sc = 7 + off;
-            $('.acc').text(pay_acc);
-            $('.arc').text(pay_arc);
-            $('.sc').text(pay_sc);
-            document.getElementById('acc').innerHTML = pay_acc;
-            document.getElementById('arc').innerHTML = pay_arc;
-            document.getElementById('sc').innerHTML = pay_sc;
-        }
+            $('acc').text(pay_acc);
+            $('arc').text(pay_arc);
+            $('sc').text(pay_sc);
+
+        });
+
+    })
+
+
+        ///function offerclick() {
+           // var off = document.getElementById("myoff").value;
+            //var pay_acc = 5 - off;
+     //       var pay_arc = 10 - off;
+       //     var pay_sc = 7 + off;
+         //   $('.acc').text(pay_acc);
+           // $('.arc').text(pay_arc);
+      //      $('.sc').text(pay_sc);
+        //    document.getElementById('acc').innerHTML = pay_acc;
+          //  document.getElementById('arc').innerHTML = pay_arc;
+            //document.getElementById('sc').innerHTML = pay_sc;
+       // }
 
     </script>
 </head>
@@ -35,19 +51,19 @@
         <tr>
             <th rowspan=2 style="vertical-align: middle">The Authority</th>
             <th>Perform</th>
-            <td><p id="acc"></p>, <p id="sc"></p></td>
+            <td><span class="acc"></span>, <span class="sc"></span></td>
             <td>5, 10</td>
         </tr>
         <tr>
             <th>Do not <br /> perform</th>
-            <td><p id="arc"></p>, <p id="sc"></p></td>
+            <td><span class="arc"></span>, <span class="sc"></span></td>
             <td>3, 5</td>
         </tr>
     </table></div>
 
     <p>Please, choose an offer to see how the payoffs change:</p>
     <ul>
-        <li><button id ='myoff' type ="submit" value="0" onclick="offerclick()">0</button> </li>
+        <li><button id ='myoff' value="0">0</button> </li>
         <li> <button id ='myoff' value="0.5" onclick="offerclick()">0.5</button></li>
         <li> <button id ='myoff' value="1" onclick="offerclick()">1</button></li>
         <li> <button id ='myoff' value="1.5" onclick="offerclick()">1.5</button></li>
