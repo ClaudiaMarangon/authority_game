@@ -10,6 +10,10 @@ class MyPage(Page):
     pass
 
 class Results(Page):
+    def vars_for_template(self):
+        return {
+            'euro_pay': self.player.real_world_c()
+        }
     pass
 
 

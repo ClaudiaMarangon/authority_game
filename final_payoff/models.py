@@ -15,6 +15,7 @@ class Constants(BaseConstants):
     name_in_url = 'final_payoff'
     players_per_group = None
     num_rounds = 1
+    currency_change = 0.2
 
 
 class Subsession(BaseSubsession):
@@ -39,9 +40,14 @@ class Player(BasePlayer):
     payoff_task = models.FloatField()
     payoff_money = models.FloatField()
     payoff_circle = models.FloatField()
+    payoff_final = models.FloatField()
 
     def set_payoff(self):
-        ###self.payoff = self.payoff_simple_task + self.payoff_task + self.payoff_money + self.payoff_circle
-        self.payoff = self.participant.vars['pay_nooffer'] + self.participant.vars['task_payoff'] + self.participant.vars['money_pay'] + self.participant.vars['circlet_payoff']
+        self.participant.payoff = self.participant.payoff - self.participant.vars['pay']
+        self.payoff_final = self.participant.vars['pay_nooffer'] + self.participant.vars['task_payoff'] + self.participant.vars['money_pay'] + self.participant.vars['circlet_payoff']
+
+    def real_world_c(self):
+        currency_payoff = self.payoff_final * Constants.currency_change
+        return currency_payoff
 
     pass

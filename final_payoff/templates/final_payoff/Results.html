@@ -10,11 +10,12 @@
     <p>
         These are all the payoffs from each game you played:
         <ul>
-            <li>Total Payoff from the Task Game with no offer: {{ player.payoff_simple_task }}</li>
-            <li>Total Payoff from the Task Game with offer from the Auhtority: {{ player.payoff_task }}</li>
-            <li>Payoff from the Money Request Game: {{ player.payoff_money }}</li>
-            <li>Payoff from the Circle Task: {{ player.payoff_circle }}</li>
-            <li>Total Payoff: {{ player.payoff }}</li>
+            <li>Total Payoff from the Task Game with no offer: {{ player.payoff_simple_task }} tokens</li>
+            <li>Total Payoff from the Task Game with offer from the Auhtority: {{ player.payoff_task }} tokens</li>
+            <li>Payoff from the Money Request Game: {{ player.payoff_money }} tokens</li>
+            <li>Payoff from the Circle Task: {{ player.payoff_circle }} tokens</li>
+            <li>Total Payoff: {{ player.payoff_final }} tokens </li>
+            <li>Total payoff in euros: {{ euro_pay|floatformat:2 }} euros</li>
         </ul>
     </p>
     {% next_button %}
