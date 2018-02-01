@@ -34,6 +34,11 @@ class Authority(Page):
             'round': self.round_number,
             'authority': self.player.role == 'authority'
         }
+
+    def before_next_page(self):
+        self.player.set_payoffs()
+
+
     pass
 
 class Subordinte(Page):
@@ -47,11 +52,10 @@ class Subordinte(Page):
             'round': self.round_number,
             'authority': self.player.role == 'authority'
         }
-    pass
 
-class WaitP(WaitPage):
-    def after_all_players_arrive(self):
-        self.group.set_payoffs()
+    def before_next_page(self):
+        self.player.set_payoffs()
+
     pass
 
 class Results(Page):
@@ -77,6 +81,5 @@ page_sequence = [
     VSComputer,
     Authority,
     Subordinte,
-    WaitP,
     Results
 ]

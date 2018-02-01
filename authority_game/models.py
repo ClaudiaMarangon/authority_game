@@ -110,8 +110,6 @@ class Group(BaseGroup):
         return Constants.authority_cr - self.offer
 
     def set_payoff(self):
-        authority = self.get_player_by_id(1)
-        subordinate = self.get_player_by_id(2)
 
         for p in self.get_players():
             if self.round_number == 1:
