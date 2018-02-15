@@ -6,12 +6,12 @@ import csv
 x_coord = []
 x_coord.append(0)
 y_coord = []
-y_coord.append(10)
+y_coord.append(20)
 x = int(1)
-while x<=1000:
-    z = x/float(100)
+while x<=8000:
+    z = x/float(400)
     def circle(var):
-        y = math.sqrt(100 - var**2) 
+        y = math.sqrt(400 - var**2)
         return y
     x_coord.append(z)
     y_coord.append(circle(z))

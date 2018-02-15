@@ -23,7 +23,16 @@ class Offer(Page):
         return self.player.role() == 'Authority'
     form_model = models.Group
     form_fields = ['offer']
+
+    def vars_for_template(self):
+        return {
+            'round': self.round_number,
+            'role': self.player.role(),
+            'other_role': self.player.other_role()
+        }
     pass
+
+
 
 
 class Decision_Authority(Page):
@@ -41,6 +50,14 @@ class Decision_Subordinate(Page):
         return self.player.role() == 'Subordinate'
     form_model = models.Group
     form_fields = ['decision_sub0', 'decision_sub0_5','decision_sub1','decision_sub1_5','decision_sub2','decision_sub2_5', 'decision_sub3', 'decision_sub3_5']
+
+    def vars_for_template(self):
+        return {
+            'round': self.round_number,
+            'role': self.player.role(),
+            'other_role': self.player.other_role()
+        }
+
     pass
 
 
@@ -213,7 +230,6 @@ class ChangeRole(Page):
 page_sequence = [
     ChangeRole,
     Introduction,
-    Description,
     Offer,
     Decision_Authority,
     Decision_Subordinate,

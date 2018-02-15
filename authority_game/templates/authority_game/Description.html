@@ -7,12 +7,10 @@
 
 {% block content %}
 
-    <p>
-        You have been allocated in the role of: <b>{{ player.role }}</b>
-    </p>
+
 
     <p>
-        You will be paired with a <b>{{ player.other_role }}</b> and you will play eight rounds of the Task Game. After this, you
+        You will be paired with a <b>{{ player.other_role }}</b> and you will play 1 round of this version of the Task Game. After this, you
         will be randomly paired with a different {{ player.other_role }} and you will play {{ constants.number_rounds_per_partner }} more rounds with this partner,
         and so on until you have played with five different partners (40 rounds in all). At the end of the experiment, five
         rounds will be randomly selected and you will be paid out from your total earnings from those rounds.

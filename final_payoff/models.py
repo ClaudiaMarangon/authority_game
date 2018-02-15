@@ -15,7 +15,7 @@ class Constants(BaseConstants):
     name_in_url = 'final_payoff'
     players_per_group = None
     num_rounds = 1
-    currency_change = 0.2
+    currency_change = 0.025
 
 
 class Subsession(BaseSubsession):
