@@ -76,8 +76,8 @@ class ChangeRole(Page):
 
 page_sequence = [
     ChangeRole,
-    Introduction,
     Payement_Info,
+    Introduction,
     VSComputer,
     Authority,
     Subordinte,

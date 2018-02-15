@@ -14,7 +14,7 @@ Your app description
 class Constants(BaseConstants):
     name_in_url = 'practice_game_control'
     players_per_group = 2
-    num_rounds = 2
+    num_rounds = 40
     authority_c = c(5)
     authority_rr = c(3)
     exploit_payoff = c(10)
