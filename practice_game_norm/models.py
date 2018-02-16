@@ -27,7 +27,7 @@ class Subsession(BaseSubsession):
 
     def creating_session(self):
         for g in self.get_groups():
-            if self.round_number <20:
+            if self.round_number <=20:
                 g.get_player_by_id(1).role = 'authority'
                 g.get_player_by_id(2).role = 'subordinate'
             else:
