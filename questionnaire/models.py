@@ -26,9 +26,7 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
-    player_id = models.CharField(
-        verbose_name='Please enter your ID'
-    )
+
     age = models.PositiveIntegerField(
         verbose_name='What is your age?',
         min=13, max=100

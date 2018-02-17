@@ -21,6 +21,9 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
+    def creating_session(self):
+        self.group_randomly()
+
     pass
 
 

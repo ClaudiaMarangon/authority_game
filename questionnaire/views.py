@@ -5,7 +5,7 @@ from .models import Constants
 
 class Survey1(Page):
     form_model = models.Player
-    form_fields = ['player_id', 'age', 'gender', 'economics', 'other', 'game_theory', 'grade_gt']
+    form_fields = ['age', 'gender', 'economics', 'other', 'game_theory', 'grade_gt']
     pass
 
 class Survey2(Page):
