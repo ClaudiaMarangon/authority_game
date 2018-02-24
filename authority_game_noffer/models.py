@@ -23,6 +23,8 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
+    def creating_session(self):
+        self.group_randomly(fixed_id_in_group=True)
 
     pass
 
