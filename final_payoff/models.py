@@ -2,7 +2,7 @@ from otree.api import (
     models, widgets, BaseConstants, BaseSubsession, BaseGroup, BasePlayer,
     Currency as c, currency_range
 )
-
+import random
 
 author = 'Your name here'
 
@@ -16,9 +16,16 @@ class Constants(BaseConstants):
     players_per_group = None
     num_rounds = 1
     currency_change = 0.025
+    n_player = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
 
 
 class Subsession(BaseSubsession):
+    def creating_session(self):
+        n_player = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+        for p in self.get_players():
+            p.lucky = random.choice(Constants.n_player)
+            n_player.remove(p.lucky)
+
     pass
 
 
@@ -41,10 +48,15 @@ class Player(BasePlayer):
     payoff_money = models.FloatField()
     payoff_circle = models.FloatField()
     payoff_final = models.FloatField()
+    lucky = models.IntegerField()
 
     def set_payoff(self):
-        self.participant.payoff = self.participant.payoff - self.participant.vars['pay']
-        self.payoff_final = self.participant.vars['pay_nooffer'] + self.participant.vars['task_payoff'] + self.participant.vars['money_pay'] + self.participant.vars['circlet_payoff']
+        if self.lucky != 13:
+            self.participant.payoff = self.participant.payoff - self.participant.vars['pay']
+            self.payoff_final = self.participant.vars['pay_nooffer'] + self.participant.vars['task_payoff'] + self.participant.vars['money_pay'] + self.participant.vars['circlet_payoff']
+        else:
+            self.payoff_final = self.participant.vars['pay_nooffer'] + self.participant.vars['task_payoff'] + self.participant.vars['money_pay'] + self.participant.vars['circlet_payoff'] + self.participant.vars['pay']
+
 
     def real_world_c(self):
         currency_payoff = self.payoff_final * Constants.currency_change

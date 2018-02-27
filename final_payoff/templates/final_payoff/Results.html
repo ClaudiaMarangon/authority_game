@@ -6,17 +6,30 @@
 {% endblock %}
 
 {% block content %}
-    <p>You reached the end of the game. </p>
-    <p>
-        These are all the payoffs from each game you played:
-        <ul>
-            <li>Total Payoff from the Task Game with no offer: {{ player.payoff_simple_task }} tokens</li>
-            <li>Total Payoff from the Task Game with offer from the Auhtority: {{ player.payoff_task }} tokens</li>
-            <li>Payoff from the Money Request Game: {{ player.payoff_money }} tokens</li>
-            <li>Payoff from the Circle Task: {{ player.payoff_circle }} tokens</li>
-            <li>Total Payoff: {{ player.payoff_final }} tokens </li>
-        </ul>
-    </p>
+    {% if lucky %}
+        <p>You reached the end of the game. </p>
+        <p>You were randomly choosen to be awarded also with the payoff from the practice!</p>
+        <p>These are all the payoffs from each game you played:</p>
+            <ul>
+                <li>Total Payoff from the Practice: {{ player.payoff_practice }} tokens</li>
+                <li>Total Payoff from the Task Game with no offer: {{ player.payoff_simple_task }} tokens</li>
+                <li>Total Payoff from the Task Game with offer from the Auhtority: {{ player.payoff_task }} tokens</li>
+                <li>Payoff from the Money Request Game: {{ player.payoff_money }} tokens</li>
+                <li>Payoff from the Circle Task: {{ player.payoff_circle }} tokens</li>
+                <li>Total Payoff: {{ player.payoff_final }} tokens </li>
+            </ul>
+
+    {% else %}
+        <p>You reached the end of the game. </p>
+        <p>These are all the payoffs from each game you played:</p>
+            <ul>
+                <li>Total Payoff from the Task Game with no offer: {{ player.payoff_simple_task }} tokens</li>
+                <li>Total Payoff from the Task Game with offer from the Auhtority: {{ player.payoff_task }} tokens</li>
+                <li>Payoff from the Money Request Game: {{ player.payoff_money }} tokens</li>
+                <li>Payoff from the Circle Task: {{ player.payoff_circle }} tokens</li>
+                <li>Total Payoff: {{ player.payoff_final }} tokens </li>
+            </ul>
+    {% endif %}
     {% next_button %}
 {% endblock %}
 
