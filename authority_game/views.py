@@ -219,7 +219,7 @@ class Finale_Page(Page):
 
 class ChangeRole(Page):
     def is_displayed(self):
-        return self.round_number==21
+        return self.round_number==31
 
     def vars_for_template(self):
         return {

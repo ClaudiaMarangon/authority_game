@@ -20,7 +20,11 @@ class Constants(BaseConstants):
     exploit_payoff = c(10)
     subordinate_rr = c(5)
     subordinate_c = c(7)
-    computer_choices = ['perform the Task', 'not perform the Task']
+    computer_choices_s = ['perform the Task', 'perform the Task', 'perform the Task', 'perform the Task',
+                          'not perform the Task']
+    computer_choices_a = ['perform the Task', 'not perform the Task', 'not perform the Task', 'not perform the Task',
+                          'not perform the Task']
+
 
 class Subsession(BaseSubsession):
 
@@ -34,7 +38,10 @@ class Subsession(BaseSubsession):
                 g.get_player_by_id(1).role = 'subordinate'
 
         for p in self.get_players():
-            p.computer_choice = random.choice(Constants.computer_choices)
+            if p.role == 'subordinate':
+                p.computer_choice = random.choice(Constants.computer_choices_a)
+            else:
+                p.computer_choice = random.choice(Constants.computer_choices_s)
 
     pass
 
