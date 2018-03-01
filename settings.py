@@ -136,8 +136,8 @@ SESSION_CONFIGS = [
         'display_name': "Task Game - Norm Group",
         'num_demo_participants': 2,
         'app_sequence': [
-            'practice_game_norm',
-            'authority_game_noffer',
+            #'practice_game_norm',
+            #'authority_game_noffer',
             'authority_game',
             'money_request',
             'circle_task',

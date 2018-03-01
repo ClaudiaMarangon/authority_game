@@ -20,11 +20,11 @@ class Constants(BaseConstants):
 
 
 class Subsession(BaseSubsession):
-    def creating_session(self):
-        n_player = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
-        for p in self.get_players():
-            p.lucky = random.choice(n_player)
-            n_player.remove(p.lucky)
+#    def creating_session(self):
+ #       n_player = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+  #      for p in self.get_players():
+   #         p.lucky = random.choice(n_player)
+    #        n_player.remove(p.lucky)
 
     pass
 
@@ -33,7 +33,7 @@ class Group(BaseGroup):
 
     def set_val(self):
         for p in self.get_players():
-            p.payoff_practice = p.participant.vars['pay']
+           # p.payoff_practice = p.participant.vars['pay']
            # p.payoff_simple_task = p.participant.vars['pay_nooffer']
             p.payoff_task = p.participant.vars['task_payoff']
             p.payoff_money = p.participant.vars['money_pay']
@@ -51,15 +51,12 @@ class Player(BasePlayer):
     lucky = models.IntegerField()
 
     def set_payoff(self):
-        if self.lucky != 13:
-            self.participant.payoff = self.participant.payoff - self.participant.vars['pay']
-            self.payoff_final = self.participant.vars['task_payoff'] + self.participant.vars['money_pay'] + self.participant.vars['circlet_payoff']
-        else:
-            self.payoff_final = self.participant.vars['task_payoff'] + self.participant.vars['money_pay'] + self.participant.vars['circlet_payoff'] + self.participant.vars['pay']
+        #if self.lucky != 13:
+            #self.participant.payoff = self.participant.payoff - self.participant.vars['pay']
+           # self.payoff_final = self.participant.vars['task_payoff'] + self.participant.vars['money_pay'] + self.participant.vars['circlet_payoff']
+        #else:
+       self.payoff_final = self.participant.vars['task_payoff'] + self.participant.vars['money_pay'] + self.participant.vars['circlet_payoff'] #+ self.participant.vars['pay']
 
 
-    def real_world_c(self):
-        currency_payoff = self.payoff_final * Constants.currency_change
-        return currency_payoff
 
     pass
