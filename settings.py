@@ -152,7 +152,7 @@ SESSION_CONFIGS = [
         'num_demo_participants': 2,
         'app_sequence': [
             'practice_game_control',
-            'authority_game_noffer',
+            #'authority_game_noffer',
             'authority_game',
             'money_request',
             'circle_task',

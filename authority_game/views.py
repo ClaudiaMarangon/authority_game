@@ -68,12 +68,6 @@ class ResultsWaitPage(WaitPage):
 
 class Results(Page):
 
-    def before_next_page(self):
-        if self.round_number == 1:
-            self.player.participant.vars['task_payoff'] = self.player.payoff
-        else:
-            self.player.participant.vars['task_payoff'] = self.player.participant.vars['task_payoff'] + self.player.payoff
-
 
     def vars_for_template(self):
 
@@ -219,7 +213,7 @@ class Finale_Page(Page):
 
 class ChangeRole(Page):
     def is_displayed(self):
-        return self.round_number==31
+        return self.round_number==41
 
     def vars_for_template(self):
         return {

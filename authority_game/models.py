@@ -15,7 +15,7 @@ Your app description
 class Constants(BaseConstants):
     name_in_url = 'authority_game'
     players_per_group = 2
-    number_partners = 60
+    number_partners = 80
     number_rounds_per_partner = 1
     num_rounds = number_partners * number_rounds_per_partner
     authority_cr = c(5)
@@ -382,7 +382,7 @@ class Player(BasePlayer):
     )
 
     def role(self):
-        if self.round_number<=30:
+        if self.round_number<=40:
             if self.id_in_group == 1:
                 return 'Authority'
             else:
@@ -394,7 +394,7 @@ class Player(BasePlayer):
                 return 'Subordinate'
 
     def other_role(self):
-        if self.round_number <= 30:
+        if self.round_number <= 40:
             if self.id_in_group == 2:
                 return 'Authority'
             else:

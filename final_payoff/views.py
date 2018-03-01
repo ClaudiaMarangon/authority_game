@@ -12,7 +12,6 @@ class MyPage(Page):
 class Results(Page):
     def vars_for_template(self):
         return {
-            'euro_pay': self.player.real_world_c(),
             'lucky': self.player.lucky == 13,
         }
     pass
